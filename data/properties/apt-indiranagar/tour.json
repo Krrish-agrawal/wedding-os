@@ -1,0 +1,253 @@
+{
+  "overview": {
+    "position": [
+      12.5,
+      17.5,
+      16
+    ],
+    "target": [
+      1,
+      -1.2,
+      0.2
+    ],
+    "fov": 45
+  },
+  "stops": [
+    {
+      "position": [
+        11,
+        1.6,
+        2.4
+      ],
+      "target": [
+        -2,
+        1.3,
+        2.35
+      ],
+      "fov": 60,
+      "id": "entrance",
+      "roomId": "entrance",
+      "label": "Entrance gallery",
+      "facts": [
+        "Wood-clad gallery wall with framed art",
+        "Shoe cabinet beside the front door",
+        "Opens to the bedroom, study and living areas"
+      ],
+      "via": [
+        [
+          -3.4,
+          1.6,
+          1.9
+        ]
+      ]
+    },
+    {
+      "position": [
+        -3,
+        1.62,
+        2.9
+      ],
+      "target": [
+        -5,
+        0.85,
+        -0.5
+      ],
+      "fov": 60,
+      "id": "dining",
+      "roomId": "dining",
+      "label": "Dining area",
+      "facts": [
+        "Six-seat wooden dining table",
+        "Two pendant lights over the table",
+        "Open to the kitchen and living room"
+      ],
+      "via": [
+        [
+          -3.4,
+          1.6,
+          1.9
+        ]
+      ]
+    },
+    {
+      "position": [
+        -5.6,
+        1.62,
+        -2
+      ],
+      "target": [
+        -10.8,
+        0.9,
+        1.4
+      ],
+      "fov": 62,
+      "id": "living",
+      "roomId": "living",
+      "label": "Living room",
+      "facts": [
+        "Grey L-shaped sofa with a glass coffee table",
+        "Full-height black-framed windows",
+        "Sheer curtains and roman blinds"
+      ],
+      "via": [
+        [
+          -3.4,
+          1.6,
+          1.9
+        ]
+      ]
+    },
+    {
+      "position": [
+        -3.4,
+        1.62,
+        -0.5
+      ],
+      "target": [
+        -9.5,
+        0.95,
+        -3
+      ],
+      "fov": 62,
+      "id": "kitchen",
+      "roomId": "kitchen",
+      "label": "Kitchen",
+      "facts": [
+        "Wood cabinets along one long wall",
+        "Hob with a glass chimney hood",
+        "Built-in oven, dishwasher and tall fridge"
+      ],
+      "via": [
+        [
+          -3.4,
+          1.6,
+          1.9
+        ]
+      ]
+    },
+    {
+      "position": [
+        -1.6,
+        1.62,
+        0.6
+      ],
+      "target": [
+        1.3,
+        0.95,
+        -2.7
+      ],
+      "fov": 62,
+      "id": "study",
+      "roomId": "study",
+      "label": "Study",
+      "facts": [
+        "Desk set against a full-height window",
+        "Bookshelves lined with plants",
+        "Opens off the gallery, apart from the bedroom"
+      ],
+      "via": [
+        [
+          -3.4,
+          1.6,
+          1.9
+        ],
+        [
+          -3.2,
+          1.6,
+          0.5
+        ]
+      ]
+    },
+    {
+      "position": [
+        7.6,
+        1.62,
+        0.5
+      ],
+      "target": [
+        11.2,
+        0.75,
+        -1.2
+      ],
+      "fov": 62,
+      "id": "bedroom",
+      "roomId": "bedroom",
+      "label": "Bedroom",
+      "facts": [
+        "King-size bed against a wood-panelled wall",
+        "Built-in wardrobe wall",
+        "En-suite bathroom through the wardrobe passage"
+      ],
+      "via": [
+        [
+          -3.4,
+          1.6,
+          1.9
+        ],
+        [
+          7.8,
+          1.6,
+          2.3
+        ],
+        [
+          7.8,
+          1.6,
+          0.6
+        ]
+      ]
+    },
+    {
+      "position": [
+        4.4,
+        1.6,
+        0.35
+      ],
+      "target": [
+        3.6,
+        1,
+        -3
+      ],
+      "fov": 72,
+      "id": "bathroom",
+      "roomId": "bathroom",
+      "label": "Bathroom",
+      "facts": [
+        "Rain shower behind a glass screen",
+        "Marble vessel basin on a wood vanity",
+        "Washer and dryer in a built-in niche"
+      ],
+      "via": [
+        [
+          -3.4,
+          1.6,
+          1.9
+        ],
+        [
+          7.8,
+          1.6,
+          2.3
+        ],
+        [
+          7.8,
+          1.6,
+          0.5
+        ],
+        [
+          7.6,
+          1.6,
+          -0.8
+        ],
+        [
+          6.5,
+          1.6,
+          -0.78
+        ],
+        [
+          5.6,
+          1.6,
+          -0.78
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+packages:
+  - apps/*
+  - packages/*
+  - scripts
+
+# Keep every package download inside this project so nothing outside it changes.
+storeDir: .pnpm-store
+cacheDir: .pnpm-cache
+saveExact: true
+
+# Only these packages may run install scripts.
+# cloudflared downloads Cloudflare's official binary into its own node_modules folder (owner approved).
+allowBuilds:
+  esbuild: true
+  cloudflared: true
+
+minimumReleaseAgeExclude:
+  - agora-agents@2.15.0

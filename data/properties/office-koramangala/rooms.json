@@ -1,0 +1,321 @@
+{
+  "rooms": [
+    {
+      "id": "lounge",
+      "name": "Double-height lounge",
+      "kind": "lounge",
+      "polygon": [
+        [
+          -1.5,
+          -4.9
+        ],
+        [
+          7.6,
+          -4.9
+        ],
+        [
+          7.6,
+          0.7
+        ],
+        [
+          5.05,
+          0.7
+        ],
+        [
+          5.05,
+          1.6
+        ],
+        [
+          -1.5,
+          1.6
+        ]
+      ],
+      "areaSqft": 612,
+      "features": [
+        "Double-height ceiling with full-height glazing",
+        "Sectional sofa and lounge chairs",
+        "Open-tread wooden staircase to the mezzanine"
+      ],
+      "seats": 0,
+      "level": 0
+    },
+    {
+      "id": "meeting",
+      "name": "Meeting area",
+      "kind": "meeting",
+      "polygon": [
+        [
+          -5.2,
+          -4.9
+        ],
+        [
+          -1.5,
+          -4.9
+        ],
+        [
+          -1.5,
+          1.15
+        ],
+        [
+          -4.95,
+          1.15
+        ],
+        [
+          -4.95,
+          -1.15
+        ],
+        [
+          -5.2,
+          -1.15
+        ]
+      ],
+      "areaSqft": 235,
+      "features": [
+        "Oval table with six chairs",
+        "Large wall-mounted screen over a sideboard",
+        "Under the mezzanine, with a wood ceiling"
+      ],
+      "seats": 0,
+      "level": 0
+    },
+    {
+      "id": "breakout",
+      "name": "Breakout lounge",
+      "kind": "lounge",
+      "polygon": [
+        [
+          -7.55,
+          1.2
+        ],
+        [
+          -1.5,
+          1.2
+        ],
+        [
+          -1.5,
+          1.6
+        ],
+        [
+          -2.2,
+          1.6
+        ],
+        [
+          -2.2,
+          4.95
+        ],
+        [
+          -7.55,
+          4.95
+        ]
+      ],
+      "areaSqft": 219,
+      "features": [
+        "L-shaped sofa beside a full-height window",
+        "Full-height built-in storage cupboards",
+        "Garden and palms outside the glass"
+      ],
+      "seats": 0,
+      "level": 0
+    },
+    {
+      "id": "bay-1",
+      "name": "Work bay 1",
+      "kind": "workspace",
+      "polygon": [
+        [
+          -2.2,
+          1.7
+        ],
+        [
+          1.45,
+          1.7
+        ],
+        [
+          1.45,
+          4.95
+        ],
+        [
+          -2.2,
+          4.95
+        ]
+      ],
+      "areaSqft": 128,
+      "features": [
+        "L-shaped desk with one office chair",
+        "Wall-mounted screen",
+        "Open-fronted bay off the main hall"
+      ],
+      "seats": 1,
+      "level": 0
+    },
+    {
+      "id": "bay-2",
+      "name": "Work bay 2",
+      "kind": "workspace",
+      "polygon": [
+        [
+          1.45,
+          1.7
+        ],
+        [
+          5.05,
+          1.7
+        ],
+        [
+          5.05,
+          4.95
+        ],
+        [
+          1.45,
+          4.95
+        ]
+      ],
+      "areaSqft": 126,
+      "features": [
+        "Desk with one office chair",
+        "Window beside the desk",
+        "Open-fronted bay off the main hall"
+      ],
+      "seats": 1,
+      "level": 0
+    },
+    {
+      "id": "cafe",
+      "name": "Mezzanine caf\u00e9",
+      "kind": "lounge",
+      "polygon": [
+        [
+          -5.1,
+          -4.9
+        ],
+        [
+          -1.9,
+          -4.9
+        ],
+        [
+          -1.9,
+          0.3
+        ],
+        [
+          -5.1,
+          0.3
+        ]
+      ],
+      "areaSqft": 179,
+      "features": [
+        "Three round caf\u00e9 tables with two chairs each",
+        "Overlooks the meeting area and lounge"
+      ],
+      "seats": 0,
+      "level": 1
+    },
+    {
+      "id": "mezz-lounge",
+      "name": "Mezzanine lounge",
+      "kind": "lounge",
+      "polygon": [
+        [
+          -5.1,
+          0.3
+        ],
+        [
+          -1.9,
+          0.3
+        ],
+        [
+          -1.9,
+          1.65
+        ],
+        [
+          -3.35,
+          1.65
+        ],
+        [
+          -3.35,
+          4.95
+        ],
+        [
+          -5.1,
+          4.95
+        ]
+      ],
+      "areaSqft": 109,
+      "features": [
+        "Sofa with a pouf on a round rug",
+        "Glass balustrade along the gallery"
+      ],
+      "seats": 0,
+      "level": 1
+    },
+    {
+      "id": "mezz-work",
+      "name": "Mezzanine workspace",
+      "kind": "workspace",
+      "polygon": [
+        [
+          -1.9,
+          0.3
+        ],
+        [
+          1.75,
+          0.3
+        ],
+        [
+          1.75,
+          4.95
+        ],
+        [
+          -3.35,
+          4.95
+        ],
+        [
+          -3.35,
+          1.65
+        ],
+        [
+          -1.9,
+          1.65
+        ]
+      ],
+      "areaSqft": 234,
+      "features": [
+        "Two desks with four office chairs",
+        "Wall shelves and a window",
+        "Overlooks the double-height lounge"
+      ],
+      "seats": 4,
+      "level": 1
+    },
+    {
+      "id": "mezz-meeting",
+      "name": "Mezzanine meeting room",
+      "kind": "meeting",
+      "polygon": [
+        [
+          1.75,
+          0.3
+        ],
+        [
+          5.05,
+          0.3
+        ],
+        [
+          5.05,
+          4.95
+        ],
+        [
+          1.75,
+          4.95
+        ]
+      ],
+      "areaSqft": 165,
+      "features": [
+        "Round table with four chairs",
+        "Windows on two sides",
+        "Partition wall shared with the workspace"
+      ],
+      "seats": 0,
+      "level": 1
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "apt-indiranagar",
+  "kind": "sale",
+  "name": "Larkspur Court",
+  "tagline": "A spacious one-bedroom home with a separate study and open-plan living, dining and kitchen.",
+  "builder": "Saltgrass Developers",
+  "configuration": "1 BHK + study",
+  "localityId": "indiranagar",
+  "localityName": "Indiranagar",
+  "city": "Bengaluru",
+  "address": "5th Main Road, Defence Colony, Indiranagar",
+  "location": {
+    "lat": 12.97446,
+    "lng": 77.6427
+  },
+  "northOffsetDeg": 180,
+  "entranceFacing": "N",
+  "areas": {
+    "carpetSqft": 1660,
+    "builtUpSqft": 1860,
+    "superBuiltUpSqft": 2290
+  },
+  "floor": {
+    "level": 5,
+    "of": 8
+  },
+  "possession": "Nearing completion, handover from March 2027",
+  "highlights": [
+    "Open-plan living, dining and a long linear kitchen",
+    "Full-height black-framed windows with sheer curtains",
+    "Bedroom with a walk-through wardrobe to an en-suite bathroom"
+  ],
+  "heroImage": "/media/apt-indiranagar/hero.webp",
+  "model": {
+    "url": "/models/apt-indiranagar.glb",
+    "scale": 1,
+    "position": [
+      0,
+      0,
+      0
+    ],
+    "rotationY": 0
+  },
+  "planImage": "/media/apt-indiranagar/plan.webp",
+  "credits": [
+    {
+      "title": "Modern Apartment",
+      "author": "Visthétique",
+      "url": "https://sketchfab.com/3d-models/modern-apartment-1fbb649cd6624f2bb7b7d6e30c6533a5",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)"
+    }
+  ],
+  "sampleData": true
+}

@@ -1,0 +1,325 @@
+{
+  "overview": {
+    "position": [
+      8.5,
+      17,
+      11.5
+    ],
+    "target": [
+      0.2,
+      0.5,
+      0.2
+    ],
+    "fov": 46
+  },
+  "stops": [
+    {
+      "position": [
+        6.6,
+        1.65,
+        -0.3
+      ],
+      "target": [
+        -1,
+        2.4,
+        -2.6
+      ],
+      "fov": 64,
+      "id": "lounge",
+      "roomId": "lounge",
+      "label": "Double-height lounge",
+      "facts": [
+        "Double-height ceiling with full-height glazing",
+        "Sectional sofa and lounge chairs",
+        "Open-tread stair to the mezzanine"
+      ],
+      "via": []
+    },
+    {
+      "position": [
+        -0.4,
+        1.62,
+        -0.2
+      ],
+      "target": [
+        -4.2,
+        1,
+        -2.6
+      ],
+      "fov": 62,
+      "id": "meeting",
+      "roomId": "meeting",
+      "label": "Meeting area",
+      "facts": [
+        "Oval table with six chairs",
+        "Large wall-mounted screen",
+        "Wood ceiling under the mezzanine"
+      ],
+      "via": [
+        [
+          3.5,
+          1.6,
+          -1.5
+        ]
+      ]
+    },
+    {
+      "position": [
+        -3.3,
+        1.62,
+        1.5
+      ],
+      "target": [
+        -7,
+        0.8,
+        3.8
+      ],
+      "fov": 64,
+      "id": "breakout",
+      "roomId": "breakout",
+      "label": "Breakout lounge",
+      "facts": [
+        "L-shaped sofa beside a full-height window",
+        "Garden and palms outside the glass"
+      ],
+      "via": [
+        [
+          3.5,
+          1.6,
+          -1.5
+        ],
+        [
+          -3,
+          1.6,
+          0.4
+        ],
+        [
+          -4.1,
+          1.6,
+          1.35
+        ]
+      ]
+    },
+    {
+      "position": [
+        -0.4,
+        1.62,
+        1.2
+      ],
+      "target": [
+        -1.3,
+        0.8,
+        4.3
+      ],
+      "fov": 64,
+      "id": "bay-1",
+      "roomId": "bay-1",
+      "label": "Work bay 1",
+      "facts": [
+        "L-shaped desk with one office chair",
+        "Wall-mounted screen",
+        "Window onto the garden"
+      ],
+      "via": [
+        [
+          3.5,
+          1.6,
+          -1.5
+        ],
+        [
+          -0.8,
+          1.6,
+          0.9
+        ]
+      ]
+    },
+    {
+      "position": [
+        4.5,
+        1.62,
+        1.9
+      ],
+      "target": [
+        1.7,
+        0.85,
+        4
+      ],
+      "fov": 66,
+      "id": "bay-2",
+      "roomId": "bay-2",
+      "label": "Work bay 2",
+      "facts": [
+        "Desk with one office chair",
+        "Window beside the desk"
+      ],
+      "via": [
+        [
+          3.5,
+          1.6,
+          -1.5
+        ],
+        [
+          3.4,
+          1.6,
+          0.9
+        ]
+      ]
+    },
+    {
+      "position": [
+        -2.3,
+        4.2,
+        -2
+      ],
+      "target": [
+        -4.6,
+        3.2,
+        -3.8
+      ],
+      "fov": 64,
+      "id": "cafe",
+      "roomId": "cafe",
+      "label": "Mezzanine café",
+      "facts": [
+        "Three round café tables, two chairs each",
+        "Overlooks the meeting area and lounge"
+      ],
+      "via": [
+        [
+          3.5,
+          1.6,
+          -1.5
+        ],
+        [
+          3.2,
+          1.6,
+          -3.5
+        ],
+        [
+          2.7,
+          1.75,
+          -4.42
+        ],
+        [
+          0.3,
+          3.1,
+          -4.42
+        ],
+        [
+          -2.4,
+          4.2,
+          -4.35
+        ]
+      ]
+    },
+    {
+      "position": [
+        -0.7,
+        4.2,
+        1.1
+      ],
+      "target": [
+        -0.9,
+        3.25,
+        4.6
+      ],
+      "fov": 72,
+      "id": "mezz-work",
+      "roomId": "mezz-work",
+      "label": "Mezzanine workspace",
+      "facts": [
+        "Two desks with four office chairs",
+        "Wall shelves and a window"
+      ],
+      "via": [
+        [
+          3.5,
+          1.6,
+          -1.5
+        ],
+        [
+          3.2,
+          1.6,
+          -3.5
+        ],
+        [
+          2.7,
+          1.75,
+          -4.42
+        ],
+        [
+          0.3,
+          3.1,
+          -4.42
+        ],
+        [
+          -2.4,
+          4.2,
+          -4.35
+        ],
+        [
+          -2.6,
+          4.2,
+          -0.5
+        ]
+      ]
+    },
+    {
+      "position": [
+        3.5,
+        4.2,
+        1.3
+      ],
+      "target": [
+        4,
+        3,
+        4.3
+      ],
+      "fov": 68,
+      "id": "mezz-meeting",
+      "roomId": "mezz-meeting",
+      "label": "Mezzanine meeting room",
+      "facts": [
+        "Round table with four chairs",
+        "Windows on two sides"
+      ],
+      "via": [
+        [
+          3.5,
+          1.6,
+          -1.5
+        ],
+        [
+          3.2,
+          1.6,
+          -3.5
+        ],
+        [
+          2.7,
+          1.75,
+          -4.42
+        ],
+        [
+          0.3,
+          3.1,
+          -4.42
+        ],
+        [
+          -2.4,
+          4.2,
+          -4.35
+        ],
+        [
+          -2.6,
+          4.2,
+          -0.5
+        ],
+        [
+          1,
+          4.2,
+          0.9
+        ]
+      ]
+    }
+  ]
+}

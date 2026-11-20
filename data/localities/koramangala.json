@@ -1,0 +1,506 @@
+{
+  "id": "koramangala",
+  "name": "Koramangala",
+  "city": "Bengaluru",
+  "center": {
+    "lat": 12.9352,
+    "lng": 77.6245
+  },
+  "profile": {
+    "summary": "A south-east Bengaluru neighbourhood of eight blocks and one of the city's best-known startup districts, where offices, co-working spaces and cafés sit among older bungalows on tree-lined streets.",
+    "character": "Koramangala was planned as a suburb after independence and stayed sparsely settled until the late 1970s. Its position between central Bengaluru and Electronic City drew new residents during the tech boom of the late 1990s. Today 80 Feet Road and the 5th Block streets around Jyoti Nivas College Road are busy with offices, co-working spaces, restaurants and pubs.",
+    "connectivity": "The Inner Ring Road runs through the middle, separating Blocks 1 to 4 from Blocks 5 to 8, and Hosur Road runs along the western edge. Koramangala has no metro station of its own. The nearest are Suddaguntepalya (Tavarekere), the end of the Pink Line stretch that opened on 14 November 2026, and Central Silk Board on the Yellow Line, which opened in August 2025.",
+    "goodToKnow": [
+      "Low-lying parts of Koramangala flood in heavy rain. ST Bed Layout was still under water a day after storms in May 2025, and 4th Block lanes behind 80 Feet Road have had sewage-laden water enter homes in past monsoons.",
+      "Pubs in 5th Block, many around Jyoti Nivas College Road, have drawn complaints from residents about loud music late at night.",
+      "Junctions such as the Sony World signal are long-standing traffic bottlenecks, and Silk Board junction to the south also floods in heavy rain."
+    ]
+  },
+  "places": [
+    {
+      "id": "schools-pns-school",
+      "name": "PNS School",
+      "category": "schools",
+      "lat": 12.938066,
+      "lng": 77.619152,
+      "osmId": "way/1160859607",
+      "kind": "School"
+    },
+    {
+      "id": "schools-lawrence-high-school-koramangala",
+      "name": "Lawrence High School Koramangala",
+      "category": "schools",
+      "lat": 12.939934,
+      "lng": 77.61573,
+      "osmId": "node/6536306636",
+      "kind": "School"
+    },
+    {
+      "id": "schools-bethany-high-school-koramangala",
+      "name": "Bethany High School Koramangala",
+      "category": "schools",
+      "lat": 12.940497,
+      "lng": 77.620762,
+      "osmId": "node/1464792933",
+      "kind": "School"
+    },
+    {
+      "id": "schools-rs-madivala-school",
+      "name": "RS Madivala School",
+      "category": "schools",
+      "lat": 12.924586,
+      "lng": 77.615072,
+      "osmId": "node/6702757188",
+      "kind": "School"
+    },
+    {
+      "id": "schools-dbm-rjs-school",
+      "name": "DBM & RJS School",
+      "category": "schools",
+      "lat": 12.929148,
+      "lng": 77.624079,
+      "osmId": "node/12369374732",
+      "kind": "School"
+    },
+    {
+      "id": "schools-genises-public-school-lakkasandra",
+      "name": "Genises Public School, Lakkasandra",
+      "category": "schools",
+      "lat": 12.929903,
+      "lng": 77.60719,
+      "osmId": "node/6536731028",
+      "kind": "School"
+    },
+    {
+      "id": "schools-christ-school-s-g-palya-lakkasandra",
+      "name": "Christ School S G Palya, Lakkasandra",
+      "category": "schools",
+      "lat": 12.928494,
+      "lng": 77.607036,
+      "osmId": "way/1242193141",
+      "kind": "School"
+    },
+    {
+      "id": "schools-a-v-s-convent-madiwala",
+      "name": "A V S Convent, Madiwala",
+      "category": "schools",
+      "lat": 12.923709,
+      "lng": 77.611694,
+      "osmId": "node/6536965027",
+      "kind": "School"
+    },
+    {
+      "id": "schools-chinmaya-vidyalaya-koramangala",
+      "name": "Chinmaya Vidyalaya, Koramangala",
+      "category": "schools",
+      "lat": 12.935019,
+      "lng": 77.62768,
+      "osmId": "node/6536356188",
+      "kind": "School"
+    },
+    {
+      "id": "schools-christ-school-cbse",
+      "name": "Christ School CBSE",
+      "category": "schools",
+      "lat": 12.931226,
+      "lng": 77.604046,
+      "osmId": "way/514073933",
+      "kind": "School"
+    },
+    {
+      "id": "hospitals-aparna-hospital",
+      "name": "Aparna Hospital",
+      "category": "hospitals",
+      "lat": 12.936209,
+      "lng": 77.616947,
+      "osmId": "node/5915195092",
+      "kind": "Hospital"
+    },
+    {
+      "id": "hospitals-apollo-spectra-hospitals",
+      "name": "Apollo Spectra Hospitals",
+      "category": "hospitals",
+      "lat": 12.933818,
+      "lng": 77.620162,
+      "osmId": "node/5915409411",
+      "kind": "Hospital"
+    },
+    {
+      "id": "hospitals-st-john-s-medical-college-hospital",
+      "name": "St.John's Medical College Hospital",
+      "category": "hospitals",
+      "lat": 12.929648,
+      "lng": 77.618593,
+      "osmId": "relation/17069662",
+      "kind": "Hospital"
+    },
+    {
+      "id": "hospitals-acura-speciality-hospital",
+      "name": "Acura Speciality Hospital",
+      "category": "hospitals",
+      "lat": 12.935321,
+      "lng": 77.62055,
+      "osmId": "node/4447087999",
+      "kind": "Hospital"
+    },
+    {
+      "id": "hospitals-pristine-health-care",
+      "name": "Pristine Health care",
+      "category": "hospitals",
+      "lat": 12.938277,
+      "lng": 77.618675,
+      "osmId": "node/1471128628",
+      "kind": "Hospital"
+    },
+    {
+      "id": "hospitals-apollo-cradle",
+      "name": "Apollo Cradle",
+      "category": "hospitals",
+      "lat": 12.93681,
+      "lng": 77.620635,
+      "osmId": "node/4392383890",
+      "kind": "Hospital"
+    },
+    {
+      "id": "hospitals-hcg-koramangala",
+      "name": "HCG, Koramangala",
+      "category": "hospitals",
+      "lat": 12.934328,
+      "lng": 77.622885,
+      "osmId": "node/6939445234",
+      "kind": "Hospital"
+    },
+    {
+      "id": "hospitals-prasad-eye-hospital",
+      "name": "Prasad Eye Hospital",
+      "category": "hospitals",
+      "lat": 12.935193,
+      "lng": 77.608682,
+      "osmId": "node/1474458358",
+      "kind": "Hospital"
+    },
+    {
+      "id": "transit-jyoti-nivas-college",
+      "name": "Jyoti Nivas College",
+      "category": "transit",
+      "lat": 12.935223,
+      "lng": 77.614237,
+      "osmId": "node/10068956812",
+      "kind": "Bus stop"
+    },
+    {
+      "id": "transit-hosur-junction",
+      "name": "Hosur Junction",
+      "category": "transit",
+      "lat": 12.932322,
+      "lng": 77.613327,
+      "osmId": "node/10043347906",
+      "kind": "Bus stop"
+    },
+    {
+      "id": "transit-forum-mall-koramangala",
+      "name": "Forum Mall Koramangala",
+      "category": "transit",
+      "lat": 12.93495,
+      "lng": 77.612148,
+      "osmId": "node/2945920002",
+      "kind": "Bus stop"
+    },
+    {
+      "id": "transit-st-john-s-hospital-ksrtc-bus-stop",
+      "name": "St John's Hospital KSRTC Bus Stop",
+      "category": "transit",
+      "lat": 12.929662,
+      "lng": 77.615662,
+      "osmId": "node/6871418644",
+      "kind": "Bus stop"
+    },
+    {
+      "id": "transit-koramangala-ttmc",
+      "name": "Koramangala TTMC",
+      "category": "transit",
+      "lat": 12.940967,
+      "lng": 77.625052,
+      "osmId": "way/122415848",
+      "kind": "Bus station"
+    },
+    {
+      "id": "transit-suddaguntepalya",
+      "name": "Suddaguntepalya metro station",
+      "category": "transit",
+      "lat": 12.929498,
+      "lng": 77.600538,
+      "osmId": "node/9906325542",
+      "kind": "Metro station"
+    },
+    {
+      "id": "transit-central-silk-board",
+      "name": "Central Silk Board metro station",
+      "category": "transit",
+      "lat": 12.916582,
+      "lng": 77.620567,
+      "osmId": "node/5760198212",
+      "kind": "Metro station"
+    },
+    {
+      "id": "transit-kuvempunagara-bus-station",
+      "name": "Kuvempunagara Bus Station",
+      "category": "transit",
+      "lat": 12.915689,
+      "lng": 77.616245,
+      "osmId": "way/243896056",
+      "kind": "Bus station"
+    },
+    {
+      "id": "groceries-food-basics",
+      "name": "Food Basics",
+      "category": "groceries",
+      "lat": 12.931967,
+      "lng": 77.617918,
+      "osmId": "node/3490677458",
+      "kind": "Supermarket"
+    },
+    {
+      "id": "groceries-nandini-shoppe",
+      "name": "Nandini Shoppe",
+      "category": "groceries",
+      "lat": 12.936445,
+      "lng": 77.617097,
+      "osmId": "node/1468235026",
+      "kind": "Convenience store"
+    },
+    {
+      "id": "groceries-safal-supermarket",
+      "name": "Safal Supermarket",
+      "category": "groceries",
+      "lat": 12.936415,
+      "lng": 77.614403,
+      "osmId": "node/1468014995",
+      "kind": "Supermarket"
+    },
+    {
+      "id": "groceries-sanoop-provision-stores",
+      "name": "Sanoop Provision Stores",
+      "category": "groceries",
+      "lat": 12.93551,
+      "lng": 77.618765,
+      "osmId": "node/5033066528",
+      "kind": "Convenience store"
+    },
+    {
+      "id": "groceries-more",
+      "name": "More",
+      "category": "groceries",
+      "lat": 12.93413,
+      "lng": 77.610989,
+      "osmId": "node/1462977137",
+      "kind": "Supermarket"
+    },
+    {
+      "id": "groceries-star-bazaar",
+      "name": "Star Bazaar",
+      "category": "groceries",
+      "lat": 12.936702,
+      "lng": 77.61046,
+      "osmId": "node/4489768760",
+      "kind": "Supermarket"
+    },
+    {
+      "id": "groceries-nilgiris",
+      "name": "Nilgiris",
+      "category": "groceries",
+      "lat": 12.935716,
+      "lng": 77.62182,
+      "osmId": "node/1464791102",
+      "kind": "Convenience store"
+    },
+    {
+      "id": "groceries-coorg-fresh-vegetables-and-fruits",
+      "name": "Coorg Fresh Vegetables and Fruits",
+      "category": "groceries",
+      "lat": 12.935046,
+      "lng": 77.624994,
+      "osmId": "node/10819508449",
+      "kind": "Greengrocer"
+    },
+    {
+      "id": "parks-sidharth-park",
+      "name": "Sidharth Park",
+      "category": "parks",
+      "lat": 12.934157,
+      "lng": 77.619192,
+      "osmId": "way/32315160",
+      "kind": "Park"
+    },
+    {
+      "id": "parks-amruth-park",
+      "name": "Amruth Park",
+      "category": "parks",
+      "lat": 12.935842,
+      "lng": 77.618647,
+      "osmId": "way/515344856",
+      "kind": "Park"
+    },
+    {
+      "id": "parks-anuroopa-park",
+      "name": "Anuroopa Park",
+      "category": "parks",
+      "lat": 12.936773,
+      "lng": 77.617663,
+      "osmId": "way/201069173",
+      "kind": "Park"
+    },
+    {
+      "id": "parks-akhila-park",
+      "name": "Akhila Park",
+      "category": "parks",
+      "lat": 12.934546,
+      "lng": 77.621852,
+      "osmId": "way/201071753",
+      "kind": "Park"
+    },
+    {
+      "id": "parks-leena-park",
+      "name": "Leena Park",
+      "category": "parks",
+      "lat": 12.937577,
+      "lng": 77.621179,
+      "osmId": "way/201068721",
+      "kind": "Park"
+    },
+    {
+      "id": "parks-lakshmi-devi-park",
+      "name": "Lakshmi Devi Park",
+      "category": "parks",
+      "lat": 12.939083,
+      "lng": 77.619706,
+      "osmId": "way/28186877",
+      "kind": "Park"
+    },
+    {
+      "id": "parks-b-r-ambedkar-park",
+      "name": "B R Ambedkar Park",
+      "category": "parks",
+      "lat": 12.940503,
+      "lng": 77.617206,
+      "osmId": "way/166733773",
+      "kind": "Park"
+    },
+    {
+      "id": "parks-chamundeshwari-park",
+      "name": "Chamundeshwari Park",
+      "category": "parks",
+      "lat": 12.941095,
+      "lng": 77.615669,
+      "osmId": "way/32316224",
+      "kind": "Park"
+    },
+    {
+      "id": "dining-indian-coffee-house",
+      "name": "Indian Coffee House",
+      "category": "dining",
+      "lat": 12.933813,
+      "lng": 77.615865,
+      "osmId": "node/12526156587",
+      "kind": "Restaurant"
+    },
+    {
+      "id": "dining-gillys-104-bar",
+      "name": "Gillys 104 Bar",
+      "category": "dining",
+      "lat": 12.933286,
+      "lng": 77.614715,
+      "osmId": "way/347188663",
+      "kind": "Restaurant"
+    },
+    {
+      "id": "dining-jalandhar-sweets",
+      "name": "Jalandhar Sweets",
+      "category": "dining",
+      "lat": 12.93412,
+      "lng": 77.616995,
+      "osmId": "node/11096390285",
+      "kind": "Cafe"
+    },
+    {
+      "id": "dining-avocados-and-brownies",
+      "name": "Avocados and Brownies",
+      "category": "dining",
+      "lat": 12.935039,
+      "lng": 77.616102,
+      "osmId": "node/11277885676",
+      "kind": "Cafe"
+    },
+    {
+      "id": "dining-la-grace",
+      "name": "La Grace",
+      "category": "dining",
+      "lat": 12.934647,
+      "lng": 77.613999,
+      "osmId": "node/13013978947",
+      "kind": "Cafe"
+    },
+    {
+      "id": "dining-friends",
+      "name": "Friends",
+      "category": "dining",
+      "lat": 12.935436,
+      "lng": 77.614787,
+      "osmId": "node/1375978279",
+      "kind": "Cafe"
+    },
+    {
+      "id": "dining-ayutthaya-cuisines-of-india",
+      "name": "Ayutthaya cuisines of India",
+      "category": "dining",
+      "lat": 12.932684,
+      "lng": 77.613754,
+      "osmId": "node/12041051350",
+      "kind": "Restaurant"
+    },
+    {
+      "id": "dining-ola-farzi-cafe",
+      "name": "Ola Farzi Cafe",
+      "category": "dining",
+      "lat": 12.931373,
+      "lng": 77.616097,
+      "osmId": "node/12541018910",
+      "kind": "Cafe"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Koramangala (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Koramangala"
+    },
+    {
+      "title": "Yellow Line, Namma Metro (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Yellow_Line_(Namma_Metro)"
+    },
+    {
+      "title": "Bengaluru Pink Line Metro opens; Byre Gowda greets commuters (New Kerala, November 2026)",
+      "url": "https://www.newkerala.com/news/a/pink-line-metro-thrown-open-public-bengaluru-minister-951.htm"
+    },
+    {
+      "title": "Bengaluru Weather: Flood woes linger as rains ease, incomplete drains blamed (Deccan Herald, May 2025)",
+      "url": "https://www.deccanherald.com/india/karnataka/bengaluru/bengaluru-rains-ease-woes-linger-3549789"
+    },
+    {
+      "title": "Rotting furniture, sewage-flooded homes: How rain has spelled doom for Bengaluru's Koramangala (The News Minute, October 2017)",
+      "url": "https://www.thenewsminute.com/amp/story/karnataka/rotting-furniture-sewage-flooded-homes-how-rain-has-spelled-doom-bengalurus-koramangala"
+    },
+    {
+      "title": "Blaring music from pubs; sleepless nights for Koramangala residents (Deccan Herald, April 2018)",
+      "url": "https://www.deccanherald.com/india/karnataka/bengaluru/blaring-music-from-pubs-sleepless-nights-for-koramangala-residents-662675.html"
+    },
+    {
+      "title": "Koramangala flyover to be ready in 18 months, to reduce traffic in Sony Signal junction and others (The News Minute, July 2017)",
+      "url": "https://www.thenewsminute.com/article/koramangala-flyover-be-ready-18-months-reduce-traffic-sony-signal-junction-and-others-65696"
+    },
+    {
+      "title": "Koramangala startup hub: how it became Bangalore’s first and where founders cluster today (myHQ)",
+      "url": "https://myhq.in/blog/office-space/koramangala-startup-hub/"
+    }
+  ],
+  "attribution": "© OpenStreetMap contributors"
+}

@@ -1,0 +1,78 @@
+{
+  "documents": [
+    {
+      "id": "title",
+      "title": "Owner's title",
+      "status": "verified",
+      "reference": "SAMPLE/TITLE/2019/0310",
+      "issuedBy": "Independent advocate's title search",
+      "date": "2026-09-15",
+      "summary": "The landlord owns the building and its land outright, with no loan or claim against them.",
+      "explanation": "Before you sign a lease, check that the person renting out the space owns it, or has the right to rent it. The landlord's sale deed and a 30-year title search show they own this building and the land it stands on, and the encumbrance certificate shows no loan or claim against it. That protects you from being asked to leave because of someone else's dispute or a bank recovering a loan."
+    },
+    {
+      "id": "occupancy",
+      "title": "Building occupancy certificate",
+      "status": "verified",
+      "reference": "OC/SAMPLE/2019/0215",
+      "issuedBy": "BBMP, now the Greater Bengaluru Authority",
+      "date": "2019-05-20",
+      "summary": "Approved for office use, including the mezzanine.",
+      "explanation": "The occupancy certificate confirms the building was completed as approved and can be used. For an office, check two things. First, the approved use: a business running from a building approved only for homes can be asked to move out. Second, any mezzanine: one added after approval can be ordered removed. This certificate approves the ground floor and the mezzanine for office use."
+    },
+    {
+      "id": "trade-licence",
+      "title": "Trade licence suitability",
+      "status": "verified",
+      "reference": "Commercial zone, office use",
+      "issuedBy": "Greater Bengaluru Authority",
+      "summary": "The zoning and approved use allow offices, so your company can get its own trade licence here.",
+      "explanation": "A trade licence is the city's permission to run a business at an address. It is issued in your company's name, not the landlord's, and only where the zoning and the building's approved use allow that business. This building is in a commercial zone and approved for offices, so a technology or services company can apply here. Apply after the lease is registered; you will need the registered lease deed, the owner's consent letter and the latest property tax receipt."
+    },
+    {
+      "id": "lease-registration",
+      "title": "Lease deed registration",
+      "status": "pending",
+      "reference": "Draft agreed, to be registered",
+      "issuedBy": "Sub-Registrar, Karnataka Stamps and Registration",
+      "summary": "Pending. The lease is registered after you both sign; that is what makes its terms binding.",
+      "explanation": "A lease for more than a year must be registered with the Sub-Registrar to be valid. Stamp duty and the registration fee are paid at that point; you and the landlord book a slot through the state's Kaveri online services and sign at the Sub-Registrar's office. Until then, treat the terms as agreed but not yet binding. Pay the security deposit on the day of registration, not before."
+    },
+    {
+      "id": "lock-in",
+      "title": "Lock-in period",
+      "status": "verified",
+      "reference": "Clause 4, draft lease",
+      "issuedBy": "Draft lease agreement",
+      "summary": "12 months from the start date, during which neither side can end the lease.",
+      "explanation": "A lock-in is the period when neither you nor the landlord can end the lease. If you leave during it, you normally pay the rent for the rest of the lock-in. Here it is the first 12 months of a 36-month term. After that, either side can end the lease by giving notice, as set out in the exit clause."
+    },
+    {
+      "id": "escalation",
+      "title": "Rent escalation",
+      "status": "verified",
+      "reference": "Clause 5, draft lease",
+      "issuedBy": "Draft lease agreement",
+      "summary": "Rent rises 5% every 12 months, on the previous year's rent.",
+      "explanation": "Escalation is the agreed increase in rent over the lease. Here the rent goes up 5% every 12 months, calculated on the rent of the year before. Because it is fixed in the lease, there are no surprise increases while you are in the space. The Pricing view shows the rent for each year of the term."
+    },
+    {
+      "id": "exit",
+      "title": "Notice and exit",
+      "status": "verified",
+      "reference": "Clause 11, draft lease",
+      "issuedBy": "Draft lease agreement",
+      "summary": "After the lock-in, three months' written notice. Deposit back within 30 days of handover.",
+      "explanation": "This clause sets out how either side can end the lease. Once the lock-in is over, you can leave by giving three months' written notice. When you hand back the keys, the landlord returns the security deposit within 30 days, less any unpaid dues or damage beyond normal wear and tear. Ask for the condition of the space to be photographed and signed by both sides on day one, so any deduction is easy to agree later."
+    },
+    {
+      "id": "rera",
+      "title": "RERA registration",
+      "status": "not_applicable",
+      "reference": "Not applicable to a lease",
+      "issuedBy": "Karnataka Real Estate Regulatory Authority",
+      "summary": "RERA covers the sale of homes and plots in new projects, not the lease of a finished office.",
+      "explanation": "RERA protects people buying apartments and plots in new projects. Renting a finished office is outside it, so there is no RERA number to check here. Your protection comes from the owner's title, the building's approvals and a registered lease deed, which the other cards cover."
+    }
+  ]
+}

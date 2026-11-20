@@ -1,0 +1,26 @@
+{
+  "name": "agora-virtual-estates",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@12.18.0",
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "dev": "pnpm --parallel --filter @ave/server --filter @ave/web dev",
+    "dev:server": "pnpm --filter @ave/server dev",
+    "dev:web": "pnpm --filter @ave/web dev",
+    "build": "pnpm -r build",
+    "typecheck": "pnpm -r typecheck",
+    "test": "pnpm -r test",
+    "validate:data": "pnpm --filter @ave/server validate:data",
+    "reset": "pnpm --filter @ave/server reset",
+    "tunnel": "tsx scripts/tunnel/run.ts"
+  },
+  "devDependencies": {
+    "@types/node": "26.6.6",
+    "tsx": "4.23.15",
+    "typescript": "7.0.2",
+    "vitest": "5.1.1"
+  }
+}

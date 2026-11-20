@@ -1,0 +1,498 @@
+{
+  "id": "indiranagar",
+  "name": "Indiranagar",
+  "city": "Bengaluru",
+  "center": {
+    "lat": 12.9719,
+    "lng": 77.6412
+  },
+  "profile": {
+    "summary": "An established east Bengaluru neighbourhood: leafy residential cross streets set back from busy shopping and dining roads, with the Purple Line metro running through it.",
+    "character": "Indiranagar was laid out by the Bangalore Development Authority in the late 1970s as a suburb of bungalows and independent houses, many first owned by defence and public-sector employees. Since the IT boom of the late 1990s its main roads have turned commercial, and 100 Feet Road is now lined with shops, bars and restaurants, while pockets such as Defence Colony remain largely residential.",
+    "connectivity": "Namma Metro's Purple Line has two stations in the area, Indiranagar on CMH Road and Swami Vivekananda Road. From Indiranagar, trains reach MG Road in three stops and run east towards Whitefield. BMTC buses run along CMH Road, 100 Feet Road and 80 Feet Road.",
+    "goodToKnow": [
+      "Late-night noise and parking from pubs on 100 Feet Road have been a long-running complaint. The Defence Colony Residents' Association was among those who took the noise to the Karnataka High Court in 2019.",
+      "Footpaths are often hard to use: on 100 Feet Road two-wheelers ride and park on them at peak hours, and in Defence Colony planters and driveways push walkers onto the road (reported in September 2025).",
+      "Heavy showers can waterlog Indiranagar streets quickly; a May 2026 report showed streets under water after about ten minutes of rain."
+    ]
+  },
+  "places": [
+    {
+      "id": "schools-ssb-international-school",
+      "name": "SSB International School",
+      "category": "schools",
+      "lat": 12.973655,
+      "lng": 77.640032,
+      "osmId": "way/346554916",
+      "kind": "School"
+    },
+    {
+      "id": "schools-casa-de-bambeino-montessori",
+      "name": "Casa de Bambeino Montessori",
+      "category": "schools",
+      "lat": 12.978006,
+      "lng": 77.643174,
+      "osmId": "node/3370094147",
+      "kind": "School"
+    },
+    {
+      "id": "schools-kinder-castle",
+      "name": "Kinder Castle",
+      "category": "schools",
+      "lat": 12.977176,
+      "lng": 77.646499,
+      "osmId": "node/5193916611",
+      "kind": "School"
+    },
+    {
+      "id": "schools-rose-of-sharon-nursery-school",
+      "name": "Rose of Sharon Nursery School",
+      "category": "schools",
+      "lat": 12.979063,
+      "lng": 77.643919,
+      "osmId": "node/4101616565",
+      "kind": "School"
+    },
+    {
+      "id": "schools-holy-shepherd-english-high-school",
+      "name": "Holy Shepherd English High School",
+      "category": "schools",
+      "lat": 12.979013,
+      "lng": 77.63904,
+      "osmId": "way/1160846995",
+      "kind": "School"
+    },
+    {
+      "id": "schools-sri-cauvery-school",
+      "name": "Sri Cauvery School",
+      "category": "schools",
+      "lat": 12.976253,
+      "lng": 77.636657,
+      "osmId": "way/330031500",
+      "kind": "School"
+    },
+    {
+      "id": "schools-national-public-school-indiranagar",
+      "name": "National Public School Indiranagar",
+      "category": "schools",
+      "lat": 12.969291,
+      "lng": 77.646637,
+      "osmId": "way/128510776",
+      "kind": "School"
+    },
+    {
+      "id": "schools-new-horizon-public-school",
+      "name": "New Horizon Public School",
+      "category": "schools",
+      "lat": 12.967735,
+      "lng": 77.642005,
+      "osmId": "way/1036043470",
+      "kind": "School"
+    },
+    {
+      "id": "schools-sarkari-hiriya-prarthmik-shale",
+      "name": "Sarkari Hiriya Prarthmik Shale",
+      "category": "schools",
+      "lat": 12.981617,
+      "lng": 77.643135,
+      "osmId": "way/347117994",
+      "kind": "School"
+    },
+    {
+      "id": "schools-silicon-city-public-school",
+      "name": "Silicon City Public School",
+      "category": "schools",
+      "lat": 12.981588,
+      "lng": 77.641473,
+      "osmId": "way/368769672",
+      "kind": "School"
+    },
+    {
+      "id": "hospitals-axon-speciality-hospital",
+      "name": "Axon Speciality Hospital",
+      "category": "hospitals",
+      "lat": 12.973892,
+      "lng": 77.64609,
+      "osmId": "node/4445586944",
+      "kind": "Hospital"
+    },
+    {
+      "id": "hospitals-ayaans-hospital",
+      "name": "Ayaans Hospital",
+      "category": "hospitals",
+      "lat": 12.978262,
+      "lng": 77.643589,
+      "osmId": "node/11272209797",
+      "kind": "Hospital"
+    },
+    {
+      "id": "hospitals-dr-bhargavi-reddy-women-children-hospital",
+      "name": "Dr. Bhargavi Reddy Women & Children Hospital",
+      "category": "hospitals",
+      "lat": 12.975403,
+      "lng": 77.647059,
+      "osmId": "node/4445578787",
+      "kind": "Hospital"
+    },
+    {
+      "id": "hospitals-chinmaya-narayana-super-specialty-centre",
+      "name": "Chinmaya Narayana Super Specialty Centre",
+      "category": "hospitals",
+      "lat": 12.977711,
+      "lng": 77.645977,
+      "osmId": "node/6944707745",
+      "kind": "Hospital"
+    },
+    {
+      "id": "hospitals-nethradhama-superspeciality-eye-hospital",
+      "name": "Nethradhama Superspeciality Eye Hospital",
+      "category": "hospitals",
+      "lat": 12.971981,
+      "lng": 77.647401,
+      "osmId": "node/5297145822",
+      "kind": "Hospital"
+    },
+    {
+      "id": "hospitals-motherhood-hospital",
+      "name": "Motherhood Hospital",
+      "category": "hospitals",
+      "lat": 12.978441,
+      "lng": 77.637585,
+      "osmId": "node/3370028968",
+      "kind": "Hospital"
+    },
+    {
+      "id": "hospitals-esi-hospital",
+      "name": "ESI Hospital",
+      "category": "hospitals",
+      "lat": 12.971348,
+      "lng": 77.636724,
+      "osmId": "way/59358741",
+      "kind": "Hospital"
+    },
+    {
+      "id": "hospitals-rashmi-hospital",
+      "name": "Rashmi Hospital",
+      "category": "hospitals",
+      "lat": 12.976695,
+      "lng": 77.636228,
+      "osmId": "node/3370279044",
+      "kind": "Hospital"
+    },
+    {
+      "id": "transit-indiranagar-6th-main",
+      "name": "Indiranagar 6th Main",
+      "category": "transit",
+      "lat": 12.974054,
+      "lng": 77.641193,
+      "osmId": "node/1185757004",
+      "kind": "Bus stop"
+    },
+    {
+      "id": "transit-thippasandra",
+      "name": "Thippasandra",
+      "category": "transit",
+      "lat": 12.974192,
+      "lng": 77.646801,
+      "osmId": "node/2396426483",
+      "kind": "Bus stop"
+    },
+    {
+      "id": "transit-indiranagar-police-station",
+      "name": "Indiranagar Police Station",
+      "category": "transit",
+      "lat": 12.978176,
+      "lng": 77.640953,
+      "osmId": "node/9814659993",
+      "kind": "Bus stop"
+    },
+    {
+      "id": "transit-indiranagar-12th-main",
+      "name": "Indiranagar 12th Main",
+      "category": "transit",
+      "lat": 12.969918,
+      "lng": 77.641384,
+      "osmId": "node/2396434084",
+      "kind": "Bus stop"
+    },
+    {
+      "id": "transit-indiranagar",
+      "name": "Indiranagar metro station",
+      "category": "transit",
+      "lat": 12.978333,
+      "lng": 77.638661,
+      "osmId": "node/6400857551",
+      "kind": "Metro station"
+    },
+    {
+      "id": "transit-swami-vivekananda-road",
+      "name": "Swami Vivekananda Road metro station",
+      "category": "transit",
+      "lat": 12.985931,
+      "lng": 77.644897,
+      "osmId": "node/6400857550",
+      "kind": "Metro station"
+    },
+    {
+      "id": "transit-domlur-bus-station",
+      "name": "Domlur Bus Station",
+      "category": "transit",
+      "lat": 12.961802,
+      "lng": 77.63873,
+      "osmId": "way/31231545",
+      "kind": "Bus station"
+    },
+    {
+      "id": "transit-baiyyappanahalli-junction",
+      "name": "Baiyyappanahalli Junction",
+      "category": "transit",
+      "lat": 12.991209,
+      "lng": 77.651714,
+      "osmId": "node/1177155562",
+      "kind": "Railway station"
+    },
+    {
+      "id": "groceries-nilgiris-1905",
+      "name": "Nilgiris 1905",
+      "category": "groceries",
+      "lat": 12.974101,
+      "lng": 77.6449,
+      "osmId": "node/4018403694",
+      "kind": "Convenience store"
+    },
+    {
+      "id": "groceries-nature-fresh-fruits-vegetables",
+      "name": "Nature Fresh Fruits & Vegetables",
+      "category": "groceries",
+      "lat": 12.973418,
+      "lng": 77.639581,
+      "osmId": "node/5821774755",
+      "kind": "Greengrocer"
+    },
+    {
+      "id": "groceries-hopcoms",
+      "name": "HOPCOMS",
+      "category": "groceries",
+      "lat": 12.97163,
+      "lng": 77.644421,
+      "osmId": "node/10293607191",
+      "kind": "Greengrocer"
+    },
+    {
+      "id": "groceries-bengaluru-fruits-and-vegetables",
+      "name": "Bengaluru Fruits and Vegetables",
+      "category": "groceries",
+      "lat": 12.974578,
+      "lng": 77.639297,
+      "osmId": "node/5585615823",
+      "kind": "Greengrocer"
+    },
+    {
+      "id": "groceries-nature-s-basket",
+      "name": "Nature's Basket",
+      "category": "groceries",
+      "lat": 12.978261,
+      "lng": 77.643138,
+      "osmId": "node/1474220552",
+      "kind": "Supermarket"
+    },
+    {
+      "id": "groceries-superstore",
+      "name": "Superstore",
+      "category": "groceries",
+      "lat": 12.976143,
+      "lng": 77.639121,
+      "osmId": "node/6987406044",
+      "kind": "Supermarket"
+    },
+    {
+      "id": "groceries-spencers-supermarket",
+      "name": "Spencers Supermarket",
+      "category": "groceries",
+      "lat": 12.973344,
+      "lng": 77.646819,
+      "osmId": "node/4489711532",
+      "kind": "Supermarket"
+    },
+    {
+      "id": "groceries-mk-retail",
+      "name": "MK Retail",
+      "category": "groceries",
+      "lat": 12.978762,
+      "lng": 77.644643,
+      "osmId": "node/1328610618",
+      "kind": "Supermarket"
+    },
+    {
+      "id": "parks-senior-citizens-park",
+      "name": "Senior Citizens Park",
+      "category": "parks",
+      "lat": 12.974917,
+      "lng": 77.64388,
+      "osmId": "way/343842765",
+      "kind": "Park"
+    },
+    {
+      "id": "parks-defence-colony-childrens-park",
+      "name": "Defence Colony Childrens Park",
+      "category": "parks",
+      "lat": 12.975428,
+      "lng": 77.644902,
+      "osmId": "way/343842758",
+      "kind": "Park"
+    },
+    {
+      "id": "parks-indiranagar-park",
+      "name": "Indiranagar Park",
+      "category": "parks",
+      "lat": 12.971272,
+      "lng": 77.644106,
+      "osmId": "way/343842760",
+      "kind": "Park"
+    },
+    {
+      "id": "parks-swami-vivekananda-park",
+      "name": "Swami Vivekananda Park",
+      "category": "parks",
+      "lat": 12.978012,
+      "lng": 77.641274,
+      "osmId": "way/368722865",
+      "kind": "Park"
+    },
+    {
+      "id": "parks-dr-ambedkar-park",
+      "name": "Dr Ambedkar Park",
+      "category": "parks",
+      "lat": 12.971338,
+      "lng": 77.638008,
+      "osmId": "way/217536635",
+      "kind": "Park"
+    },
+    {
+      "id": "parks-bm-kaval-park",
+      "name": "BM Kaval Park",
+      "category": "parks",
+      "lat": 12.98048,
+      "lng": 77.644765,
+      "osmId": "way/362931600",
+      "kind": "Park"
+    },
+    {
+      "id": "parks-gandhiji-park",
+      "name": "Gandhiji Park",
+      "category": "parks",
+      "lat": 12.969433,
+      "lng": 77.649265,
+      "osmId": "way/119132968",
+      "kind": "Park"
+    },
+    {
+      "id": "parks-doopanahalli-park",
+      "name": "Doopanahalli Park",
+      "category": "parks",
+      "lat": 12.968633,
+      "lng": 77.636799,
+      "osmId": "way/128510778",
+      "kind": "Park"
+    },
+    {
+      "id": "dining-backyard-burgers-and-grill",
+      "name": "Backyard Burgers and Grill",
+      "category": "dining",
+      "lat": 12.974844,
+      "lng": 77.641251,
+      "osmId": "node/11250659619",
+      "kind": "Restaurant"
+    },
+    {
+      "id": "dining-vanamo",
+      "name": "Vanamo",
+      "category": "dining",
+      "lat": 12.973204,
+      "lng": 77.64144,
+      "osmId": "node/12059625405",
+      "kind": "Restaurant"
+    },
+    {
+      "id": "dining-gloria-jean-s",
+      "name": "Gloria Jean's",
+      "category": "dining",
+      "lat": 12.976128,
+      "lng": 77.641214,
+      "osmId": "node/1474258844",
+      "kind": "Cafe"
+    },
+    {
+      "id": "dining-panditji-ras-bana-rahe",
+      "name": "Panditji - Ras Bana Rahe",
+      "category": "dining",
+      "lat": 12.972156,
+      "lng": 77.642174,
+      "osmId": "node/10728008692",
+      "kind": "Restaurant"
+    },
+    {
+      "id": "dining-eddy-s-cafe",
+      "name": "Eddy's Cafe",
+      "category": "dining",
+      "lat": 12.973846,
+      "lng": 77.645071,
+      "osmId": "node/9814660000",
+      "kind": "Cafe"
+    },
+    {
+      "id": "dining-bologna",
+      "name": "Bologna",
+      "category": "dining",
+      "lat": 12.971954,
+      "lng": 77.64094,
+      "osmId": "node/9826455125",
+      "kind": "Restaurant"
+    },
+    {
+      "id": "dining-neon-market",
+      "name": "Neon Market",
+      "category": "dining",
+      "lat": 12.972767,
+      "lng": 77.639759,
+      "osmId": "node/12107634725",
+      "kind": "Cafe"
+    },
+    {
+      "id": "dining-ouzo-by-fire",
+      "name": "Ouzo by Fire",
+      "category": "dining",
+      "lat": 12.977169,
+      "lng": 77.640673,
+      "osmId": "node/11968859185",
+      "kind": "Restaurant"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Indiranagar, Bengaluru (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Indiranagar,_Bengaluru"
+    },
+    {
+      "title": "Purple Line, Namma Metro (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Purple_Line_(Namma_Metro)"
+    },
+    {
+      "title": "K'taka HC raps Bengaluru police over noise levels in Indiranagar pubs (The News Minute, June 2019)",
+      "url": "https://www.thenewsminute.com/article/ktaka-hc-raps-bengaluru-police-over-noise-levels-indiranagar-pubs-103589"
+    },
+    {
+      "title": "From noise levels to parking, pubs continue to flout law in Bengaluru's Indiranagar (The News Minute, May 2018)",
+      "url": "https://www.thenewsminute.com/karnataka/noise-levels-parking-pubs-continue-flout-law-bengaluru-s-indiranagar-81616"
+    },
+    {
+      "title": "Encroachment menace leaves Indiranagar pavements unusable for pedestrians (The News Minute, September 2025)",
+      "url": "https://www.thenewsminute.com/karnataka/encroachment-menace-leaves-indiranagar-pavements-unusable-for-pedestrians"
+    },
+    {
+      "title": "Indiranagar resident slams Bengaluru's rain woes after 10-minute downpour (Asianet Newsable, May 2026)",
+      "url": "https://newsable.asianetnews.com/karnataka-news/cant-romanticise-it-anymore-indiranagar-resident-slams-bengaluru-rain-woes-after-10-minute-downpour-watch-articleshow-c059gai"
+    }
+  ],
+  "attribution": "© OpenStreetMap contributors"
+}

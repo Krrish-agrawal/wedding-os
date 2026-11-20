@@ -1,0 +1,1113 @@
+{
+  "bounds": {
+    "minX": -8.2,
+    "maxX": 8.9,
+    "minZ": -7.1,
+    "maxZ": 5.5
+  },
+  "electrical": {
+    "points": [
+      {
+        "id": "db",
+        "x": 6.9,
+        "z": 0.55,
+        "roomId": "lounge",
+        "label": "DB",
+        "kind": "db"
+      },
+      {
+        "id": "sb-lounge",
+        "x": 6.3,
+        "z": 0.55,
+        "roomId": "lounge",
+        "kind": "switchboard"
+      },
+      {
+        "id": "data-rack",
+        "x": 5.9,
+        "z": 0.55,
+        "roomId": "lounge",
+        "label": "Router",
+        "kind": "data"
+      },
+      {
+        "id": "lt-lounge-1",
+        "x": 1,
+        "z": -3.4,
+        "roomId": "lounge",
+        "kind": "light"
+      },
+      {
+        "id": "lt-lounge-2",
+        "x": 4.4,
+        "z": -3.4,
+        "roomId": "lounge",
+        "kind": "light"
+      },
+      {
+        "id": "lt-lounge-3",
+        "x": 1,
+        "z": -0.6,
+        "roomId": "lounge",
+        "kind": "light"
+      },
+      {
+        "id": "lt-lounge-4",
+        "x": 4.4,
+        "z": -0.6,
+        "roomId": "lounge",
+        "kind": "light"
+      },
+      {
+        "id": "ac-lounge-1",
+        "x": 3.6,
+        "z": -4.75,
+        "roomId": "lounge",
+        "kind": "ac"
+      },
+      {
+        "id": "ac-lounge-2",
+        "x": 6.4,
+        "z": -4.75,
+        "roomId": "lounge",
+        "kind": "ac"
+      },
+      {
+        "id": "skt-lounge-1",
+        "x": 0.9,
+        "z": -4.75,
+        "roomId": "lounge",
+        "label": "Bench",
+        "kind": "socket"
+      },
+      {
+        "id": "skt-lounge-2",
+        "x": 2.4,
+        "z": -4.75,
+        "roomId": "lounge",
+        "label": "Bench",
+        "kind": "socket"
+      },
+      {
+        "id": "skt-lounge-3",
+        "x": 5.3,
+        "z": 0.55,
+        "roomId": "lounge",
+        "kind": "socket"
+      },
+      {
+        "id": "skt-lounge-4",
+        "x": -1.35,
+        "z": -2,
+        "roomId": "lounge",
+        "kind": "socket"
+      },
+      {
+        "id": "sb-meeting",
+        "x": -1.65,
+        "z": 0.95,
+        "roomId": "meeting",
+        "kind": "switchboard"
+      },
+      {
+        "id": "lt-meeting-1",
+        "x": -3.3,
+        "z": -3.6,
+        "roomId": "meeting",
+        "kind": "light"
+      },
+      {
+        "id": "lt-meeting-2",
+        "x": -3.3,
+        "z": -1.7,
+        "roomId": "meeting",
+        "kind": "light"
+      },
+      {
+        "id": "lt-meeting-3",
+        "x": -3.3,
+        "z": 0.2,
+        "roomId": "meeting",
+        "kind": "light"
+      },
+      {
+        "id": "ac-meeting",
+        "x": -3.3,
+        "z": -4.75,
+        "roomId": "meeting",
+        "kind": "ac"
+      },
+      {
+        "id": "pwr-screen",
+        "x": -5.05,
+        "z": -2.9,
+        "roomId": "meeting",
+        "label": "Screen",
+        "kind": "power_socket"
+      },
+      {
+        "id": "data-screen",
+        "x": -5.05,
+        "z": -2.3,
+        "roomId": "meeting",
+        "label": "Screen",
+        "kind": "data"
+      },
+      {
+        "id": "pwr-table",
+        "x": -2.75,
+        "z": -1.7,
+        "roomId": "meeting",
+        "label": "Table",
+        "kind": "power_socket"
+      },
+      {
+        "id": "data-table",
+        "x": -2.75,
+        "z": -1.2999999999999998,
+        "roomId": "meeting",
+        "label": "Table",
+        "kind": "data"
+      },
+      {
+        "id": "skt-meeting",
+        "x": -1.65,
+        "z": -4.5,
+        "roomId": "meeting",
+        "kind": "socket"
+      },
+      {
+        "id": "sb-breakout",
+        "x": -1.65,
+        "z": 1.45,
+        "roomId": "breakout",
+        "kind": "switchboard"
+      },
+      {
+        "id": "lt-breakout-1",
+        "x": -4.9,
+        "z": 2.4,
+        "roomId": "breakout",
+        "kind": "light"
+      },
+      {
+        "id": "lt-breakout-2",
+        "x": -4.9,
+        "z": 4,
+        "roomId": "breakout",
+        "kind": "light"
+      },
+      {
+        "id": "ac-breakout",
+        "x": -4,
+        "z": 4.8,
+        "roomId": "breakout",
+        "kind": "ac"
+      },
+      {
+        "id": "skt-breakout-1",
+        "x": -7.4,
+        "z": 1.4,
+        "roomId": "breakout",
+        "kind": "socket"
+      },
+      {
+        "id": "skt-breakout-2",
+        "x": -6,
+        "z": 4.8,
+        "roomId": "breakout",
+        "kind": "socket"
+      },
+      {
+        "id": "pwr-bench",
+        "x": -2.35,
+        "z": 2.5,
+        "roomId": "breakout",
+        "label": "Desk",
+        "kind": "power_socket"
+      },
+      {
+        "id": "data-bench",
+        "x": -2.35,
+        "z": 2.9,
+        "roomId": "breakout",
+        "label": "Desk",
+        "kind": "data"
+      },
+      {
+        "id": "skt-bench",
+        "x": -2.35,
+        "z": 3.8,
+        "roomId": "breakout",
+        "label": "Bench desk",
+        "kind": "socket"
+      },
+      {
+        "id": "sb-bay-1",
+        "x": 1.3,
+        "z": 1.85,
+        "roomId": "bay-1",
+        "kind": "switchboard"
+      },
+      {
+        "id": "lt-bay-1",
+        "x": -0.4,
+        "z": 3.3,
+        "roomId": "bay-1",
+        "kind": "light"
+      },
+      {
+        "id": "ac-bay-1",
+        "x": -0.4,
+        "z": 4.8,
+        "roomId": "bay-1",
+        "kind": "ac"
+      },
+      {
+        "id": "pwr-bay-1",
+        "x": -2.05,
+        "z": 2.35,
+        "roomId": "bay-1",
+        "label": "Desk",
+        "kind": "power_socket"
+      },
+      {
+        "id": "data-bay-1",
+        "x": -2.05,
+        "z": 2.7,
+        "roomId": "bay-1",
+        "label": "Desk",
+        "kind": "data"
+      },
+      {
+        "id": "skt-bay-1",
+        "x": 1.3,
+        "z": 4.8,
+        "roomId": "bay-1",
+        "kind": "socket"
+      },
+      {
+        "id": "sb-bay-2",
+        "x": 4.9,
+        "z": 1.85,
+        "roomId": "bay-2",
+        "kind": "switchboard"
+      },
+      {
+        "id": "lt-bay-2",
+        "x": 3.3,
+        "z": 3.3,
+        "roomId": "bay-2",
+        "kind": "light"
+      },
+      {
+        "id": "ac-bay-2",
+        "x": 3.3,
+        "z": 4.8,
+        "roomId": "bay-2",
+        "kind": "ac"
+      },
+      {
+        "id": "pwr-bay-2",
+        "x": 1.6,
+        "z": 2.8,
+        "roomId": "bay-2",
+        "label": "Desk",
+        "kind": "power_socket"
+      },
+      {
+        "id": "data-bay-2",
+        "x": 1.6,
+        "z": 3.15,
+        "roomId": "bay-2",
+        "label": "Desk",
+        "kind": "data"
+      },
+      {
+        "id": "skt-bay-2",
+        "x": 4.9,
+        "z": 4,
+        "roomId": "bay-2",
+        "kind": "socket"
+      },
+      {
+        "id": "db-mezz",
+        "x": -4.95,
+        "z": 0.45,
+        "roomId": "mezz-lounge",
+        "label": "Sub-board",
+        "kind": "db"
+      },
+      {
+        "id": "sb-cafe",
+        "x": -4.95,
+        "z": -0.1,
+        "roomId": "cafe",
+        "kind": "switchboard"
+      },
+      {
+        "id": "lt-cafe-1",
+        "x": -3.5,
+        "z": -3.7,
+        "roomId": "cafe",
+        "kind": "light"
+      },
+      {
+        "id": "lt-cafe-2",
+        "x": -3.5,
+        "z": -1.6,
+        "roomId": "cafe",
+        "kind": "light"
+      },
+      {
+        "id": "ac-cafe",
+        "x": -3.5,
+        "z": -4.75,
+        "roomId": "cafe",
+        "kind": "ac"
+      },
+      {
+        "id": "skt-cafe-1",
+        "x": -4.95,
+        "z": -3,
+        "roomId": "cafe",
+        "kind": "socket"
+      },
+      {
+        "id": "skt-cafe-2",
+        "x": -2.05,
+        "z": -4.75,
+        "roomId": "cafe",
+        "kind": "socket"
+      },
+      {
+        "id": "sb-mezz-lounge",
+        "x": -4.95,
+        "z": 0.95,
+        "roomId": "mezz-lounge",
+        "kind": "switchboard"
+      },
+      {
+        "id": "lt-mezz-lounge-1",
+        "x": -4.2,
+        "z": 1.8,
+        "roomId": "mezz-lounge",
+        "kind": "light"
+      },
+      {
+        "id": "lt-mezz-lounge-2",
+        "x": -4.2,
+        "z": 3.9,
+        "roomId": "mezz-lounge",
+        "kind": "light"
+      },
+      {
+        "id": "skt-mezz-lounge-1",
+        "x": -4.95,
+        "z": 2.6,
+        "roomId": "mezz-lounge",
+        "kind": "socket"
+      },
+      {
+        "id": "skt-mezz-lounge-2",
+        "x": -3.5,
+        "z": 4.8,
+        "roomId": "mezz-lounge",
+        "kind": "socket"
+      },
+      {
+        "id": "sb-mezz-work",
+        "x": -1.75,
+        "z": 0.45,
+        "roomId": "mezz-work",
+        "kind": "switchboard"
+      },
+      {
+        "id": "lt-mezz-work-1",
+        "x": -0.1,
+        "z": 1.1,
+        "roomId": "mezz-work",
+        "kind": "light"
+      },
+      {
+        "id": "lt-mezz-work-2",
+        "x": -0.1,
+        "z": 3,
+        "roomId": "mezz-work",
+        "kind": "light"
+      },
+      {
+        "id": "lt-mezz-work-3",
+        "x": -2.6,
+        "z": 4.3,
+        "roomId": "mezz-work",
+        "kind": "light"
+      },
+      {
+        "id": "ac-mezz-work",
+        "x": -0.1,
+        "z": 4.8,
+        "roomId": "mezz-work",
+        "kind": "ac"
+      },
+      {
+        "id": "pwr-mezz-1",
+        "x": -1.95,
+        "z": 2.15,
+        "roomId": "mezz-work",
+        "label": "Desk",
+        "kind": "power_socket"
+      },
+      {
+        "id": "data-mezz-1",
+        "x": -1.95,
+        "z": 2.5,
+        "roomId": "mezz-work",
+        "label": "Desk",
+        "kind": "data"
+      },
+      {
+        "id": "pwr-mezz-2",
+        "x": -1.95,
+        "z": 3.4,
+        "roomId": "mezz-work",
+        "label": "Desk",
+        "kind": "power_socket"
+      },
+      {
+        "id": "data-mezz-2",
+        "x": -1.95,
+        "z": 3.75,
+        "roomId": "mezz-work",
+        "label": "Desk",
+        "kind": "data"
+      },
+      {
+        "id": "pwr-mezz-3",
+        "x": 1.45,
+        "z": 2.15,
+        "roomId": "mezz-work",
+        "label": "Desk",
+        "kind": "power_socket"
+      },
+      {
+        "id": "data-mezz-3",
+        "x": 1.45,
+        "z": 2.5,
+        "roomId": "mezz-work",
+        "label": "Desk",
+        "kind": "data"
+      },
+      {
+        "id": "pwr-mezz-4",
+        "x": 1.45,
+        "z": 3.4,
+        "roomId": "mezz-work",
+        "label": "Desk",
+        "kind": "power_socket"
+      },
+      {
+        "id": "data-mezz-4",
+        "x": 1.45,
+        "z": 3.75,
+        "roomId": "mezz-work",
+        "label": "Desk",
+        "kind": "data"
+      },
+      {
+        "id": "sb-mezz-meeting",
+        "x": 1.9,
+        "z": 0.45,
+        "roomId": "mezz-meeting",
+        "kind": "switchboard"
+      },
+      {
+        "id": "lt-mezz-meeting-1",
+        "x": 2.6,
+        "z": 1.9,
+        "roomId": "mezz-meeting",
+        "kind": "light"
+      },
+      {
+        "id": "lt-mezz-meeting-2",
+        "x": 4.4,
+        "z": 1.9,
+        "roomId": "mezz-meeting",
+        "kind": "light"
+      },
+      {
+        "id": "ac-mezz-meeting",
+        "x": 3.4,
+        "z": 4.8,
+        "roomId": "mezz-meeting",
+        "kind": "ac"
+      },
+      {
+        "id": "pwr-round-table",
+        "x": 3.4,
+        "z": 3.45,
+        "roomId": "mezz-meeting",
+        "label": "Table",
+        "kind": "power_socket"
+      },
+      {
+        "id": "data-round-table",
+        "x": 4.1,
+        "z": 3.45,
+        "roomId": "mezz-meeting",
+        "label": "Table",
+        "kind": "data"
+      },
+      {
+        "id": "skt-mezz-meeting",
+        "x": 4.9,
+        "z": 1,
+        "roomId": "mezz-meeting",
+        "kind": "socket"
+      }
+    ],
+    "circuits": [
+      {
+        "id": "c-lights-lounge",
+        "name": "Lights · lounge",
+        "rating": "6 A",
+        "path": [
+          [
+            6.9,
+            0.55
+          ],
+          [
+            6.9,
+            -0.6
+          ],
+          [
+            4.4,
+            -0.6
+          ],
+          [
+            1,
+            -0.6
+          ],
+          [
+            1,
+            -3.4
+          ],
+          [
+            4.4,
+            -3.4
+          ]
+        ]
+      },
+      {
+        "id": "c-lights-ground",
+        "name": "Lights · meeting, breakout, bays",
+        "rating": "6 A",
+        "path": [
+          [
+            6.9,
+            0.55
+          ],
+          [
+            6.9,
+            1.3
+          ],
+          [
+            3.3,
+            1.3
+          ],
+          [
+            3.3,
+            3.3
+          ],
+          [
+            3.3,
+            1.3
+          ],
+          [
+            -0.4,
+            1.3
+          ],
+          [
+            -0.4,
+            3.3
+          ],
+          [
+            -0.4,
+            1.3
+          ],
+          [
+            -3.3,
+            1.3
+          ],
+          [
+            -3.3,
+            0.2
+          ],
+          [
+            -3.3,
+            -1.7
+          ],
+          [
+            -3.3,
+            -3.6
+          ],
+          [
+            -3.3,
+            0.2
+          ],
+          [
+            -4.9,
+            0.2
+          ],
+          [
+            -4.9,
+            1.3
+          ],
+          [
+            -4.9,
+            2.4
+          ],
+          [
+            -4.9,
+            4
+          ]
+        ]
+      },
+      {
+        "id": "c-sockets-lounge",
+        "name": "Sockets · lounge and meeting",
+        "rating": "10 A",
+        "path": [
+          [
+            6.9,
+            0.55
+          ],
+          [
+            5.3,
+            0.55
+          ],
+          [
+            5.3,
+            -4.75
+          ],
+          [
+            2.4,
+            -4.75
+          ],
+          [
+            0.9,
+            -4.75
+          ],
+          [
+            -1.65,
+            -4.75
+          ],
+          [
+            -1.65,
+            -4.5
+          ],
+          [
+            -1.65,
+            -1.7
+          ],
+          [
+            -2.75,
+            -1.7
+          ],
+          [
+            -5.05,
+            -1.7
+          ],
+          [
+            -5.05,
+            -2.9
+          ]
+        ]
+      },
+      {
+        "id": "c-desks-ground",
+        "name": "Desks · bays and bench",
+        "rating": "16 A",
+        "path": [
+          [
+            6.9,
+            0.55
+          ],
+          [
+            6.9,
+            1.6
+          ],
+          [
+            1.6,
+            1.6
+          ],
+          [
+            1.6,
+            2.8
+          ],
+          [
+            1.6,
+            1.6
+          ],
+          [
+            -2.05,
+            1.6
+          ],
+          [
+            -2.05,
+            2.35
+          ],
+          [
+            -2.35,
+            2.35
+          ],
+          [
+            -2.35,
+            2.5
+          ],
+          [
+            -2.35,
+            3.8
+          ],
+          [
+            -2.35,
+            4.8
+          ],
+          [
+            -6,
+            4.8
+          ],
+          [
+            -7.4,
+            4.8
+          ],
+          [
+            -7.4,
+            1.4
+          ]
+        ]
+      },
+      {
+        "id": "c-ac-lounge",
+        "name": "AC · lounge",
+        "rating": "20 A",
+        "path": [
+          [
+            6.9,
+            0.55
+          ],
+          [
+            7.4,
+            0.55
+          ],
+          [
+            7.4,
+            -4.75
+          ],
+          [
+            6.4,
+            -4.75
+          ],
+          [
+            3.6,
+            -4.75
+          ]
+        ]
+      },
+      {
+        "id": "c-ac-ground",
+        "name": "AC · meeting, breakout, bays",
+        "rating": "20 A",
+        "path": [
+          [
+            6.9,
+            0.55
+          ],
+          [
+            6.9,
+            4.8
+          ],
+          [
+            3.3,
+            4.8
+          ],
+          [
+            -0.4,
+            4.8
+          ],
+          [
+            -4,
+            4.8
+          ],
+          [
+            -5.6,
+            4.8
+          ],
+          [
+            -5.6,
+            -4.75
+          ],
+          [
+            -3.3,
+            -4.75
+          ]
+        ]
+      },
+      {
+        "id": "c-feeder-mezz",
+        "name": "Feeder to the mezzanine sub-board",
+        "rating": "32 A",
+        "path": [
+          [
+            6.9,
+            0.55
+          ],
+          [
+            6.9,
+            1.15
+          ],
+          [
+            -4.95,
+            1.15
+          ],
+          [
+            -4.95,
+            0.45
+          ]
+        ]
+      },
+      {
+        "id": "c-lights-cafe",
+        "name": "Lights · café",
+        "rating": "6 A",
+        "path": [
+          [
+            -4.95,
+            0.45
+          ],
+          [
+            -3.5,
+            0.45
+          ],
+          [
+            -3.5,
+            -1.6
+          ],
+          [
+            -3.5,
+            -3.7
+          ]
+        ],
+        "level": 1
+      },
+      {
+        "id": "c-lights-mezz",
+        "name": "Lights · mezzanine lounge, workspace, meeting",
+        "rating": "6 A",
+        "path": [
+          [
+            -4.95,
+            0.45
+          ],
+          [
+            -4.2,
+            0.45
+          ],
+          [
+            -4.2,
+            1.8
+          ],
+          [
+            -4.2,
+            3.9
+          ],
+          [
+            -2.6,
+            3.9
+          ],
+          [
+            -2.6,
+            4.3
+          ],
+          [
+            -0.1,
+            4.3
+          ],
+          [
+            -0.1,
+            3
+          ],
+          [
+            -0.1,
+            1.1
+          ],
+          [
+            2.6,
+            1.1
+          ],
+          [
+            2.6,
+            1.9
+          ],
+          [
+            4.4,
+            1.9
+          ]
+        ],
+        "level": 1
+      },
+      {
+        "id": "c-desks-mezz",
+        "name": "Desks · mezzanine",
+        "rating": "16 A",
+        "path": [
+          [
+            -4.95,
+            0.45
+          ],
+          [
+            -1.95,
+            0.45
+          ],
+          [
+            -1.95,
+            2.15
+          ],
+          [
+            -1.95,
+            3.4
+          ],
+          [
+            -1.95,
+            4.6
+          ],
+          [
+            1.45,
+            4.6
+          ],
+          [
+            1.45,
+            3.4
+          ],
+          [
+            1.45,
+            2.15
+          ],
+          [
+            1.45,
+            1.4
+          ],
+          [
+            3.4,
+            1.4
+          ],
+          [
+            3.4,
+            3.45
+          ]
+        ],
+        "level": 1
+      },
+      {
+        "id": "c-sockets-mezz",
+        "name": "Sockets · mezzanine",
+        "rating": "10 A",
+        "path": [
+          [
+            -2.05,
+            -4.75
+          ],
+          [
+            -4.95,
+            -4.75
+          ],
+          [
+            -4.95,
+            -3
+          ],
+          [
+            -4.95,
+            0.45
+          ],
+          [
+            -4.95,
+            2.6
+          ],
+          [
+            -4.95,
+            4.8
+          ],
+          [
+            -3.5,
+            4.8
+          ]
+        ],
+        "level": 1
+      },
+      {
+        "id": "c-ac-mezz",
+        "name": "AC · mezzanine",
+        "rating": "20 A",
+        "path": [
+          [
+            -4.95,
+            0.45
+          ],
+          [
+            -5,
+            0.45
+          ],
+          [
+            -5,
+            -4.6
+          ],
+          [
+            -3.5,
+            -4.6
+          ],
+          [
+            -3.5,
+            -4.75
+          ],
+          [
+            -3.5,
+            -4.6
+          ],
+          [
+            -5,
+            -4.6
+          ],
+          [
+            -5,
+            4.65
+          ],
+          [
+            -0.1,
+            4.65
+          ],
+          [
+            -0.1,
+            4.8
+          ],
+          [
+            -0.1,
+            4.65
+          ],
+          [
+            3.4,
+            4.65
+          ],
+          [
+            3.4,
+            4.8
+          ]
+        ],
+        "level": 1
+      }
+    ]
+  },
+  "plumbing": {
+    "fixtures": [],
+    "lines": []
+  }
+}

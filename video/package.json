@@ -1,0 +1,22 @@
+{
+  "name": "agora-virtual-estates-promo",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@12.18.0",
+  "scripts": {
+    "music": "node scripts/make-music.ts",
+    "studio": "remotion studio",
+    "render": "node scripts/make-music.ts && remotion render AgoraVirtualEstatesPromo out/agora-virtual-estates-promo.mp4",
+    "still": "remotion still AgoraVirtualEstatesPromo"
+  },
+  "dependencies": {
+    "@fontsource-variable/bricolage-grotesque": "5.3.0",
+    "@fontsource-variable/plus-jakarta-sans": "5.3.0",
+    "@fontsource/noto-sans-devanagari": "5.3.0",
+    "@fontsource/noto-sans-kannada": "5.3.0",
+    "@remotion/cli": "4.0.542",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "remotion": "4.0.542"
+  }
+}

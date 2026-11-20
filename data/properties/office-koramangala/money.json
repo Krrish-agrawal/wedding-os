@@ -1,0 +1,22 @@
+{
+  "kind": "lease",
+  "rentMonthly": 210000,
+  "maintenanceMonthly": 15000,
+  "gstPct": 18,
+  "depositMonths": 6,
+  "seats": 6,
+  "fitOut": "Furnished and ready to use. The desks, chairs, sofas and lighting in the 3D tour stay with the office.",
+  "lockInMonths": 12,
+  "termMonths": 36,
+  "escalationPct": 5,
+  "escalationEveryMonths": 12,
+  "inclusions": [
+    "Garden upkeep twice a week",
+    "Power backup for lights, sockets and network",
+    "Security guard at the gate round the clock",
+    "Parking for one car and four two-wheelers",
+    "Water supply"
+  ],
+  "gstSource": "https://cbic-gst.gov.in/hindi/pdf/central-tax-rate/Notification11-CGST.pdf",
+  "estimateNote": "Estimate. Rent, maintenance and deposit are the landlord's asking terms, in line with 2026 Koramangala office listings of about ₹80 to ₹125 per sq ft a month. GST applies to rent and maintenance. Final terms are set in the registered lease deed."
+}

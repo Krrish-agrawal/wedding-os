@@ -1,0 +1,9 @@
+# This folder is its own pnpm root, separate from the app's workspace one level up.
+# Every download stays inside video/ so nothing outside it changes.
+storeDir: .pnpm-store
+cacheDir: .pnpm-cache
+saveExact: true
+
+# Only these packages may run install scripts.
+allowBuilds:
+  esbuild: true

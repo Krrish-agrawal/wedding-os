@@ -1,0 +1,29 @@
+{
+  "name": "@ave/server",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch --env-file-if-exists=../../.env src/index.ts",
+    "start": "tsx --env-file-if-exists=../../.env src/index.ts",
+    "typecheck": "tsc -p tsconfig.json",
+    "test": "vitest run --passWithNoTests",
+    "validate:data": "tsx src/scripts/validate-data.ts",
+    "reset": "tsx src/scripts/reset.ts"
+  },
+  "dependencies": {
+    "@ave/shared": "workspace:*",
+    "@fastify/cors": "11.4.3",
+    "@fastify/static": "10.1.11",
+    "@fastify/websocket": "11.3.7",
+    "@modelcontextprotocol/sdk": "1.32.2",
+    "agora-agents": "2.15.0",
+    "agora-token": "2.0.7",
+    "fastify": "5.12.8",
+    "openai": "7.60.0",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "cloudflared": "0.7.3"
+  }
+}

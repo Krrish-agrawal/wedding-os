@@ -1,0 +1,69 @@
+{
+  "id": "office-koramangala",
+  "kind": "lease",
+  "name": "Fernhollow Garden Studio",
+  "tagline": "An independent garden-level studio office with a double-height lounge, a mezzanine and six desks.",
+  "builder": "Brindle Oak Workspaces",
+  "configuration": "6-desk studio office with mezzanine",
+  "localityId": "koramangala",
+  "localityName": "Koramangala",
+  "city": "Bengaluru",
+  "address": "Jyoti Nivas College Road, Koramangala",
+  "location": {
+    "lat": 12.93364,
+    "lng": 77.61583
+  },
+  "northOffsetDeg": 0,
+  "entranceFacing": "E",
+  "areas": {
+    "carpetSqft": 2010,
+    "builtUpSqft": 2210,
+    "superBuiltUpSqft": 2210
+  },
+  "floor": {
+    "level": 0,
+    "of": 1,
+    "label": "Ground floor with mezzanine"
+  },
+  "possession": "Ready to move in, available from 1 December 2026",
+  "highlights": [
+    "Double-height lounge with full-height glazing",
+    "Mezzanine with café tables, desks and a meeting room",
+    "Meeting area with a large wall-mounted screen"
+  ],
+  "heroImage": "/media/office-koramangala/hero.webp",
+  "model": {
+    "url": "/models/office-koramangala.glb",
+    "scale": 1,
+    "position": [
+      0,
+      0,
+      0
+    ],
+    "rotationY": 0
+  },
+  "planImage": "/media/office-koramangala/plan.webp",
+  "levels": [
+    {
+      "index": 0,
+      "name": "Ground level",
+      "floorY": 0,
+      "planImage": "/media/office-koramangala/plan.webp"
+    },
+    {
+      "index": 1,
+      "name": "Mezzanine",
+      "floorY": 2.59,
+      "planImage": "/media/office-koramangala/plan-mezzanine.webp"
+    }
+  ],
+  "credits": [
+    {
+      "title": "Loft 18 mini office v.environment",
+      "author": "dasy444",
+      "url": "https://sketchfab.com/3d-models/loft-18-mini-office-venvironment-00f610a2e4504ba59aad766e705c395e",
+      "license": "SKETCHFAB Standard (https://sketchfab.com/licenses)"
+    }
+  ],
+  "sampleData": true
+}

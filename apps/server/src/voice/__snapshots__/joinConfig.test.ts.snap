@@ -1,0 +1,162 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`buildJoinProperties > matches the reviewed join body 1`] = `
+{
+  "advanced_features": {
+    "enable_rtm": true,
+    "enable_tools": true,
+  },
+  "agent_rtc_uid": "1000",
+  "asr": {
+    "keywords": [
+      "BHK",
+      "Vastu",
+      "RERA",
+      "Khata",
+      "A Khata",
+      "B Khata",
+      "lakh",
+      "crore",
+      "EMI",
+      "carpet area",
+      "super built up",
+      "occupancy certificate",
+      "possession",
+      "registration",
+      "stamp duty",
+      "GST",
+      "maintenance",
+      "lock in",
+      "per seat",
+      "site visit",
+      "Lakeview Residency",
+      "Indiranagar",
+      "Bengaluru",
+      "Sample Builders",
+      "Kempegowda International Airport",
+    ],
+    "language": "en-IN",
+    "vendor": "ares",
+  },
+  "channel": "ave-abc123def456",
+  "enable_string_uid": false,
+  "filler_words": {
+    "content": {
+      "mode": "static",
+      "static_config": {
+        "phrases": [
+          "One moment.",
+          "Let me pull that up.",
+          "Just a second.",
+          "Let me check that for you.",
+          "Sure, give me a moment.",
+        ],
+        "selection_rule": "shuffle",
+      },
+    },
+    "enable": true,
+    "trigger": {
+      "fixed_time_config": {
+        "response_wait_ms": 10000,
+      },
+      "mode": "fixed_time",
+    },
+  },
+  "idle_timeout": 120,
+  "interruption": {
+    "enable": true,
+    "mode": "start_of_speech",
+  },
+  "labels": {
+    "session_id": "abc123def456",
+  },
+  "llm": {
+    "api_key": "sk-test-openai",
+    "failure_message": "Sorry, I lost that for a moment. Could you say it again?",
+    "greeting_configs": {
+      "mode": "single_first",
+    },
+    "greeting_message": "Hi Priya, I am Asha from Agora Virtual Estates.",
+    "input_modalities": [
+      "text",
+    ],
+    "max_history": 24,
+    "mcp_servers": [
+      {
+        "endpoint": "https://voice-test.example.com/mcp",
+        "headers": {
+          "Authorization": "Bearer tool-token-xyz",
+        },
+        "name": "estates",
+        "timeout_ms": 8000,
+        "transport": "streamable_http",
+      },
+    ],
+    "params": {
+      "model": "gpt-4.1-mini",
+      "temperature": 0.3,
+    },
+    "style": "openai",
+    "system_messages": [
+      {
+        "content": "BRIEF for Priya",
+        "role": "system",
+      },
+      {
+        "content": "SCREEN view=shortlist property=none",
+        "role": "system",
+      },
+    ],
+    "url": "https://api.openai.com/v1/chat/completions",
+  },
+  "parameters": {
+    "audio_scenario": "default",
+    "data_channel": "rtm",
+    "enable_error_message": true,
+    "enable_metrics": true,
+    "farewell_config": {
+      "graceful_enabled": true,
+      "graceful_timeout_seconds": 10,
+    },
+  },
+  "remote_rtc_uids": [
+    "2001",
+  ],
+  "token": "agent-token-for-tests",
+  "tts": {
+    "params": {
+      "api_key": "murf-test-key",
+      "base_url": "wss://global.api.murf.ai/v1/speech/stream-input",
+      "locale": "en-IN",
+      "model": "FALCON",
+      "pitch": 0,
+      "rate": 0,
+      "sample_rate": 24000,
+      "voiceId": "Anusha",
+    },
+    "vendor": "murf",
+  },
+  "turn_detection": {
+    "config": {
+      "end_of_speech": {
+        "mode": "semantic",
+        "semantic_config": {
+          "max_wait_ms": 3000,
+          "silence_duration_ms": 320,
+        },
+      },
+      "speech_threshold": 0.5,
+      "start_of_speech": {
+        "mode": "vad",
+        "vad_config": {
+          "interrupt_duration_ms": 160,
+          "prefix_padding_ms": 800,
+          "speaking_interrupt_duration_ms": 320,
+        },
+      },
+    },
+    "language": "en-IN",
+    "mode": "default",
+  },
+}
+`;

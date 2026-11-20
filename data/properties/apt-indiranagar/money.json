@@ -1,0 +1,136 @@
+{
+  "kind": "sale",
+  "lineItems": [
+    {
+      "id": "base",
+      "label": "Base price",
+      "group": "base",
+      "calc": { "type": "per_sqft", "rate": 21000, "area": "superBuiltUp" },
+      "note": "Sample rate. Indiranagar apartments were listed at about ₹17,500 to ₹26,500 per sq ft in 2026. Your sale agreement also states the RERA carpet area.",
+      "source": "https://housing.com/price-trends/property-rates-for-buy-in-indira_nagar_bengaluru-Pu0r6m95i80gbhpp"
+    },
+    {
+      "id": "floor_rise",
+      "label": "Floor rise",
+      "group": "charges",
+      "calc": { "type": "per_sqft", "rate": 160, "area": "superBuiltUp" },
+      "note": "₹40 per sq ft for each floor above the first. This home is on the fifth floor."
+    },
+    {
+      "id": "parking",
+      "label": "Covered car parking",
+      "group": "charges",
+      "calc": { "type": "fixed", "amount": 500000 },
+      "note": "One covered bay in the basement, allotted with the apartment."
+    },
+    {
+      "id": "club",
+      "label": "Clubhouse membership",
+      "group": "charges",
+      "calc": { "type": "fixed", "amount": 150000 },
+      "note": "One-time membership of the building's shared amenities."
+    },
+    {
+      "id": "utilities",
+      "label": "Electricity and water connections",
+      "group": "charges",
+      "calc": { "type": "per_sqft", "rate": 150, "area": "superBuiltUp" },
+      "payableAt": "handover",
+      "note": "BESCOM and BWSSB connection deposits and fees. The builder collects them and pays the utilities, so no GST is added."
+    },
+    {
+      "id": "legal",
+      "label": "Legal and documentation charges",
+      "group": "charges",
+      "calc": { "type": "fixed", "amount": 50000 },
+      "payableAt": "handover",
+      "note": "Drafting the sale agreement and the sale deed."
+    },
+    {
+      "id": "gst_home",
+      "label": "GST on the home",
+      "group": "government",
+      "calc": { "type": "percent", "ratePct": 5, "of": ["base", "floor_rise", "parking", "club"] },
+      "payableAt": "instalments",
+      "note": "Applies to homes bought before the occupancy certificate is issued, with no input tax credit. It is paid with each instalment. Ready homes with the certificate carry no GST.",
+      "source": "https://gstcouncil.gov.in/sites/default/files/2024-10/33rd_gst_press_information_bureau.pdf"
+    },
+    {
+      "id": "gst_services",
+      "label": "GST on legal and maintenance charges",
+      "group": "government",
+      "calc": { "type": "percent", "ratePct": 18, "of": ["legal", "maintenance"] },
+      "note": "Standard GST rate on services the builder charges for separately.",
+      "source": "https://cbic-gst.gov.in/hindi/pdf/central-tax-rate/Notification11-CGST.pdf"
+    },
+    {
+      "id": "stamp_duty",
+      "label": "Stamp duty",
+      "group": "government",
+      "calc": { "type": "percent", "ratePct": 5, "of": ["base", "floor_rise", "parking", "club"] },
+      "note": "Karnataka rate for property above ₹45 lakh. It is charged on the agreement value or the government guidance value, whichever is higher.",
+      "source": "https://igr.karnataka.gov.in/info-2/Fees/Stamp+Duty+and+Registration+Fees/en"
+    },
+    {
+      "id": "stamp_cess",
+      "label": "Cess on stamp duty",
+      "group": "government",
+      "calc": { "type": "percent", "ratePct": 10, "of": ["stamp_duty"] },
+      "note": "A percentage of the stamp duty, not of the property value.",
+      "source": "https://web.landeed.com/products/karnataka/stamp-duty-registration-charges"
+    },
+    {
+      "id": "stamp_surcharge",
+      "label": "Surcharge on stamp duty",
+      "group": "government",
+      "calc": { "type": "percent", "ratePct": 2, "of": ["stamp_duty"] },
+      "note": "Urban rate, inside city corporation limits. A percentage of the stamp duty.",
+      "source": "https://web.landeed.com/products/karnataka/stamp-duty-registration-charges"
+    },
+    {
+      "id": "registration",
+      "label": "Registration fee",
+      "group": "government",
+      "calc": { "type": "percent", "ratePct": 2, "of": ["base", "floor_rise", "parking", "club"] },
+      "note": "Karnataka raised the registration fee from 1% to 2% from 31 August 2025.",
+      "source": "https://ksandk.com/newsletter/karnataka-doubles-property-registration-fee-in-2025/"
+    },
+    {
+      "id": "maintenance",
+      "label": "Advance maintenance, 12 months",
+      "group": "deposits",
+      "calc": { "type": "per_sqft", "rate": 54, "area": "superBuiltUp" },
+      "note": "₹4.50 per sq ft a month, paid a year ahead at handover."
+    },
+    {
+      "id": "corpus",
+      "label": "Corpus fund",
+      "group": "deposits",
+      "calc": { "type": "per_sqft", "rate": 100, "area": "superBuiltUp" },
+      "note": "One-time fund for major repairs, handed over to the owners' association."
+    }
+  ],
+  "schedule": [
+    { "id": "booking", "stage": "Booking amount", "percent": 10, "due": "When you book" },
+    { "id": "agreement", "stage": "Sale agreement, covering the structure already built", "percent": 60, "due": "Within 30 days of booking" },
+    { "id": "flooring", "stage": "Flooring, doors and windows", "percent": 15, "due": "Expected January 2027" },
+    { "id": "finishes", "stage": "Painting, fittings and services", "percent": 10, "due": "Expected February 2027" },
+    { "id": "possession", "stage": "Occupancy certificate and keys", "percent": 5, "due": "Expected March 2027" }
+  ],
+  "emiDefaults": {
+    "downPaymentPct": 35,
+    "ratePct": 7.75,
+    "tenureYears": 20,
+    "rateSource": "https://sbi.bank.in/web/interest-rates/interest-rates/loan-schemes-interest-rates/home-loans-interest-rates-current",
+    "rateNote": "SBI regular home loans start at 7.50% a year from 15 October 2026. We use 7.75% as a typical rate; yours depends on your credit score and lender."
+  },
+  "ltv": {
+    "slabs": [
+      { "upToLoan": 3000000, "maxPct": 90 },
+      { "upToLoan": 7500000, "maxPct": 80 },
+      { "upToLoan": null, "maxPct": 75 }
+    ],
+    "source": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=10995"
+  },
+  "estimateNote": "Estimate. Statutory charges are computed at current Karnataka rates; your lawyer confirms them at registration."
+}

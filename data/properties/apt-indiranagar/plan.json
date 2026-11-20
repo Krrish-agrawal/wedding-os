@@ -1,0 +1,1201 @@
+{
+  "bounds": {
+    "minX": -12.7,
+    "maxX": 12.7,
+    "minZ": -3.9,
+    "maxZ": 3.9
+  },
+  "electrical": {
+    "points": [
+      {
+        "id": "db",
+        "x": 9.45,
+        "z": 3.12,
+        "roomId": "entrance",
+        "label": "DB",
+        "kind": "db"
+      },
+      {
+        "id": "data-router",
+        "x": 8.95,
+        "z": 3.12,
+        "roomId": "entrance",
+        "label": "Router",
+        "kind": "data"
+      },
+      {
+        "id": "sb-gallery",
+        "x": 11.35,
+        "z": 3.12,
+        "roomId": "entrance",
+        "kind": "switchboard"
+      },
+      {
+        "id": "lt-gallery-1",
+        "x": -0.7,
+        "z": 2.25,
+        "roomId": "entrance",
+        "kind": "light"
+      },
+      {
+        "id": "lt-gallery-2",
+        "x": 3,
+        "z": 2.25,
+        "roomId": "entrance",
+        "kind": "light"
+      },
+      {
+        "id": "lt-gallery-3",
+        "x": 6.6,
+        "z": 2.25,
+        "roomId": "entrance",
+        "kind": "light"
+      },
+      {
+        "id": "lt-gallery-4",
+        "x": 10.3,
+        "z": 2.25,
+        "roomId": "entrance",
+        "kind": "light"
+      },
+      {
+        "id": "skt-gallery",
+        "x": 4.5,
+        "z": 3.12,
+        "roomId": "entrance",
+        "kind": "socket"
+      },
+      {
+        "id": "sb-living",
+        "x": -6.8,
+        "z": 3.12,
+        "roomId": "living",
+        "kind": "switchboard"
+      },
+      {
+        "id": "lt-living-1",
+        "x": -10.9,
+        "z": -0.2,
+        "roomId": "living",
+        "kind": "light"
+      },
+      {
+        "id": "lt-living-2",
+        "x": -7.9,
+        "z": -0.2,
+        "roomId": "living",
+        "kind": "light"
+      },
+      {
+        "id": "lt-living-3",
+        "x": -10.9,
+        "z": 2.1,
+        "roomId": "living",
+        "kind": "light"
+      },
+      {
+        "id": "lt-living-4",
+        "x": -7.9,
+        "z": 2.1,
+        "roomId": "living",
+        "kind": "light"
+      },
+      {
+        "id": "fan-living",
+        "x": -9.4,
+        "z": 0.95,
+        "roomId": "living",
+        "kind": "fan"
+      },
+      {
+        "id": "ac-living",
+        "x": -9.4,
+        "z": 3.15,
+        "roomId": "living",
+        "kind": "ac"
+      },
+      {
+        "id": "skt-living-1",
+        "x": -11.97,
+        "z": -1,
+        "roomId": "living",
+        "kind": "socket"
+      },
+      {
+        "id": "skt-living-2",
+        "x": -11.97,
+        "z": 0.9,
+        "roomId": "living",
+        "kind": "socket"
+      },
+      {
+        "id": "skt-living-3",
+        "x": -11.97,
+        "z": 2.85,
+        "roomId": "living",
+        "kind": "socket"
+      },
+      {
+        "id": "skt-living-4",
+        "x": -7.6,
+        "z": 3.15,
+        "roomId": "living",
+        "kind": "socket"
+      },
+      {
+        "id": "sb-dining",
+        "x": -2.48,
+        "z": -1.2,
+        "roomId": "dining",
+        "kind": "switchboard"
+      },
+      {
+        "id": "lt-dining-1",
+        "x": -4.4,
+        "z": 0.05,
+        "roomId": "dining",
+        "label": "Pendant over the table",
+        "kind": "light"
+      },
+      {
+        "id": "lt-dining-2",
+        "x": -4.4,
+        "z": 2.5,
+        "roomId": "dining",
+        "kind": "light"
+      },
+      {
+        "id": "skt-dining-1",
+        "x": -6,
+        "z": 3.15,
+        "roomId": "dining",
+        "kind": "socket"
+      },
+      {
+        "id": "skt-dining-2",
+        "x": -2.9,
+        "z": 3.15,
+        "roomId": "dining",
+        "kind": "socket"
+      },
+      {
+        "id": "sb-kitchen",
+        "x": -2.45,
+        "z": -1.6,
+        "roomId": "kitchen",
+        "kind": "switchboard"
+      },
+      {
+        "id": "lt-kitchen-1",
+        "x": -10.4,
+        "z": -2.3,
+        "roomId": "kitchen",
+        "kind": "light"
+      },
+      {
+        "id": "lt-kitchen-2",
+        "x": -7.2,
+        "z": -2.3,
+        "roomId": "kitchen",
+        "kind": "light"
+      },
+      {
+        "id": "lt-kitchen-3",
+        "x": -4,
+        "z": -2.3,
+        "roomId": "kitchen",
+        "kind": "light"
+      },
+      {
+        "id": "pwr-fridge",
+        "x": -10.95,
+        "z": -3.15,
+        "roomId": "kitchen",
+        "label": "Fridge",
+        "kind": "power_socket"
+      },
+      {
+        "id": "skt-kitchen-1",
+        "x": -9.6,
+        "z": -3.15,
+        "roomId": "kitchen",
+        "kind": "socket"
+      },
+      {
+        "id": "pwr-dishwasher",
+        "x": -8.35,
+        "z": -3.15,
+        "roomId": "kitchen",
+        "label": "Dishwasher",
+        "kind": "power_socket"
+      },
+      {
+        "id": "skt-kitchen-2",
+        "x": -6.6,
+        "z": -3.15,
+        "roomId": "kitchen",
+        "kind": "socket"
+      },
+      {
+        "id": "pwr-hob",
+        "x": -5.7,
+        "z": -3.15,
+        "roomId": "kitchen",
+        "label": "Hob and chimney",
+        "kind": "power_socket"
+      },
+      {
+        "id": "pwr-oven",
+        "x": -2.85,
+        "z": -3.15,
+        "roomId": "kitchen",
+        "label": "Oven",
+        "kind": "power_socket"
+      },
+      {
+        "id": "sb-study",
+        "x": -0.35,
+        "z": 0.82,
+        "roomId": "study",
+        "kind": "switchboard"
+      },
+      {
+        "id": "lt-study-1",
+        "x": -1.2,
+        "z": -1.3,
+        "roomId": "study",
+        "kind": "light"
+      },
+      {
+        "id": "lt-study-2",
+        "x": 1.4,
+        "z": -1.3,
+        "roomId": "study",
+        "kind": "light"
+      },
+      {
+        "id": "fan-study",
+        "x": 0.1,
+        "z": -1.3,
+        "roomId": "study",
+        "kind": "fan"
+      },
+      {
+        "id": "ac-study",
+        "x": -1,
+        "z": -3.15,
+        "roomId": "study",
+        "kind": "ac"
+      },
+      {
+        "id": "skt-study-1",
+        "x": 0.45,
+        "z": -3.15,
+        "roomId": "study",
+        "kind": "socket"
+      },
+      {
+        "id": "data-study",
+        "x": 1.25,
+        "z": -3.15,
+        "roomId": "study",
+        "label": "Desk",
+        "kind": "data"
+      },
+      {
+        "id": "skt-study-2",
+        "x": 2,
+        "z": -3.15,
+        "roomId": "study",
+        "kind": "socket"
+      },
+      {
+        "id": "skt-study-3",
+        "x": -2.15,
+        "z": -0.3,
+        "roomId": "study",
+        "kind": "socket"
+      },
+      {
+        "id": "sb-bath",
+        "x": 5.98,
+        "z": -0.2,
+        "roomId": "bathroom",
+        "kind": "switchboard"
+      },
+      {
+        "id": "lt-bath-1",
+        "x": 4.5,
+        "z": -1.2,
+        "roomId": "bathroom",
+        "kind": "light"
+      },
+      {
+        "id": "lt-bath-2",
+        "x": 4.4,
+        "z": -2.75,
+        "roomId": "bathroom",
+        "label": "Shower",
+        "kind": "light"
+      },
+      {
+        "id": "pwr-geyser",
+        "x": 3.05,
+        "z": -2.45,
+        "roomId": "bathroom",
+        "label": "Water heater",
+        "kind": "power_socket"
+      },
+      {
+        "id": "skt-bath",
+        "x": 3.05,
+        "z": -0.75,
+        "roomId": "bathroom",
+        "label": "Mirror",
+        "kind": "socket"
+      },
+      {
+        "id": "pwr-washer",
+        "x": 5.98,
+        "z": 0.6,
+        "roomId": "bathroom",
+        "label": "Washer-dryer",
+        "kind": "power_socket"
+      },
+      {
+        "id": "sb-bedroom",
+        "x": 8.95,
+        "z": 0.8,
+        "roomId": "bedroom",
+        "kind": "switchboard"
+      },
+      {
+        "id": "lt-bedroom-1",
+        "x": 7.6,
+        "z": -1.2,
+        "roomId": "bedroom",
+        "kind": "light"
+      },
+      {
+        "id": "fan-bedroom",
+        "x": 9.3,
+        "z": -1.2,
+        "roomId": "bedroom",
+        "kind": "fan"
+      },
+      {
+        "id": "lt-bedroom-2",
+        "x": 10.9,
+        "z": -1.2,
+        "roomId": "bedroom",
+        "kind": "light"
+      },
+      {
+        "id": "ac-bedroom",
+        "x": 9.9,
+        "z": -3.15,
+        "roomId": "bedroom",
+        "kind": "ac"
+      },
+      {
+        "id": "skt-bedroom-1",
+        "x": 11.97,
+        "z": -2.7,
+        "roomId": "bedroom",
+        "label": "Bedside",
+        "kind": "socket"
+      },
+      {
+        "id": "skt-bedroom-2",
+        "x": 11.97,
+        "z": 0.55,
+        "roomId": "bedroom",
+        "label": "Bedside",
+        "kind": "socket"
+      },
+      {
+        "id": "skt-bedroom-3",
+        "x": 7.3,
+        "z": 0.8,
+        "roomId": "bedroom",
+        "kind": "socket"
+      },
+      {
+        "id": "skt-bedroom-4",
+        "x": 8,
+        "z": -3.15,
+        "roomId": "bedroom",
+        "kind": "socket"
+      }
+    ],
+    "circuits": [
+      {
+        "id": "c-lights-east",
+        "name": "Lights and fans · bedroom, bathroom, gallery",
+        "rating": "6 A",
+        "path": [
+          [
+            9.45,
+            3.12
+          ],
+          [
+            9.45,
+            2.25
+          ],
+          [
+            10.3,
+            2.25
+          ],
+          [
+            7.8,
+            2.25
+          ],
+          [
+            7.8,
+            -1.2
+          ],
+          [
+            7.6,
+            -1.2
+          ],
+          [
+            9.3,
+            -1.2
+          ],
+          [
+            10.9,
+            -1.2
+          ],
+          [
+            10.9,
+            -1.9
+          ],
+          [
+            6.6,
+            -1.9
+          ],
+          [
+            6.6,
+            -2.75
+          ],
+          [
+            5.4,
+            -2.75
+          ],
+          [
+            4.4,
+            -2.75
+          ],
+          [
+            4.4,
+            -1.2
+          ],
+          [
+            4.5,
+            -1.2
+          ]
+        ]
+      },
+      {
+        "id": "c-lights-west",
+        "name": "Lights and fans · living, dining, kitchen, study",
+        "rating": "6 A",
+        "path": [
+          [
+            9.45,
+            3.12
+          ],
+          [
+            9.45,
+            2.25
+          ],
+          [
+            6.6,
+            2.25
+          ],
+          [
+            3,
+            2.25
+          ],
+          [
+            0.1,
+            2.25
+          ],
+          [
+            0.1,
+            -1.3
+          ],
+          [
+            1.4,
+            -1.3
+          ],
+          [
+            -1.2,
+            -1.3
+          ],
+          [
+            -1.2,
+            -2.3
+          ],
+          [
+            -4,
+            -2.3
+          ],
+          [
+            -7.2,
+            -2.3
+          ],
+          [
+            -10.4,
+            -2.3
+          ],
+          [
+            -10.9,
+            -2.3
+          ],
+          [
+            -10.9,
+            -0.2
+          ],
+          [
+            -7.9,
+            -0.2
+          ],
+          [
+            -7.9,
+            0.95
+          ],
+          [
+            -9.4,
+            0.95
+          ],
+          [
+            -9.4,
+            2.1
+          ],
+          [
+            -10.9,
+            2.1
+          ],
+          [
+            -7.9,
+            2.1
+          ],
+          [
+            -4.4,
+            2.1
+          ],
+          [
+            -4.4,
+            2.5
+          ],
+          [
+            -4.4,
+            0.05
+          ]
+        ]
+      },
+      {
+        "id": "c-gallery",
+        "name": "Gallery lights",
+        "rating": "6 A",
+        "path": [
+          [
+            11.35,
+            3.12
+          ],
+          [
+            11.35,
+            2.25
+          ],
+          [
+            10.3,
+            2.25
+          ],
+          [
+            -0.7,
+            2.25
+          ]
+        ]
+      },
+      {
+        "id": "c-sockets-east",
+        "name": "Sockets · bedroom, bathroom, gallery",
+        "rating": "10 A",
+        "path": [
+          [
+            9.45,
+            3.12
+          ],
+          [
+            4.5,
+            3.12
+          ],
+          [
+            6.9,
+            3.12
+          ],
+          [
+            6.9,
+            0.8
+          ],
+          [
+            7.3,
+            0.8
+          ],
+          [
+            11.97,
+            0.8
+          ],
+          [
+            11.97,
+            0.55
+          ],
+          [
+            11.97,
+            -2.7
+          ],
+          [
+            11.97,
+            -3.15
+          ],
+          [
+            8,
+            -3.15
+          ],
+          [
+            6.4,
+            -3.15
+          ],
+          [
+            6.4,
+            -0.75
+          ],
+          [
+            3.05,
+            -0.75
+          ]
+        ]
+      },
+      {
+        "id": "c-sockets-west",
+        "name": "Sockets · living, dining, study",
+        "rating": "10 A",
+        "path": [
+          [
+            9.45,
+            3.12
+          ],
+          [
+            -2.9,
+            3.12
+          ],
+          [
+            -2.9,
+            3.15
+          ],
+          [
+            -6,
+            3.15
+          ],
+          [
+            -7.6,
+            3.15
+          ],
+          [
+            -11.97,
+            3.15
+          ],
+          [
+            -11.97,
+            2.85
+          ],
+          [
+            -11.97,
+            -1
+          ]
+        ]
+      },
+      {
+        "id": "c-study-desk",
+        "name": "Study desk and data",
+        "rating": "10 A",
+        "path": [
+          [
+            9.45,
+            3.12
+          ],
+          [
+            9.45,
+            2.7
+          ],
+          [
+            -2.15,
+            2.7
+          ],
+          [
+            -2.15,
+            -0.3
+          ],
+          [
+            -2.15,
+            -3.15
+          ],
+          [
+            2,
+            -3.15
+          ]
+        ]
+      },
+      {
+        "id": "c-kitchen",
+        "name": "Kitchen appliances",
+        "rating": "16 A",
+        "path": [
+          [
+            9.45,
+            3.12
+          ],
+          [
+            9.45,
+            2.85
+          ],
+          [
+            -2.6,
+            2.85
+          ],
+          [
+            -2.6,
+            -3.15
+          ],
+          [
+            -10.95,
+            -3.15
+          ]
+        ]
+      },
+      {
+        "id": "c-bath-power",
+        "name": "Water heater and washer-dryer",
+        "rating": "16 A",
+        "path": [
+          [
+            9.45,
+            3.12
+          ],
+          [
+            9.45,
+            1.6
+          ],
+          [
+            6.3,
+            1.6
+          ],
+          [
+            6.3,
+            0.6
+          ],
+          [
+            5.98,
+            0.6
+          ],
+          [
+            6.3,
+            0.6
+          ],
+          [
+            6.3,
+            -2.45
+          ],
+          [
+            3.05,
+            -2.45
+          ]
+        ]
+      },
+      {
+        "id": "c-ac-bedroom",
+        "name": "AC · Bedroom",
+        "rating": "20 A",
+        "path": [
+          [
+            9.45,
+            3.12
+          ],
+          [
+            9.9,
+            3.12
+          ],
+          [
+            9.9,
+            -3.15
+          ]
+        ]
+      },
+      {
+        "id": "c-ac-study",
+        "name": "AC · Study",
+        "rating": "20 A",
+        "path": [
+          [
+            9.45,
+            3.12
+          ],
+          [
+            9.45,
+            2.55
+          ],
+          [
+            -1,
+            2.55
+          ],
+          [
+            -1,
+            -3.15
+          ]
+        ]
+      },
+      {
+        "id": "c-ac-living",
+        "name": "AC · Living room",
+        "rating": "20 A",
+        "path": [
+          [
+            9.45,
+            3.12
+          ],
+          [
+            9.45,
+            3
+          ],
+          [
+            -9.4,
+            3
+          ],
+          [
+            -9.4,
+            3.15
+          ]
+        ]
+      }
+    ]
+  },
+  "plumbing": {
+    "fixtures": [
+      {
+        "id": "shaft-bath",
+        "x": 5.8,
+        "z": -3.05,
+        "roomId": "bathroom",
+        "label": "Shaft",
+        "kind": "shaft"
+      },
+      {
+        "id": "wc",
+        "x": 3.55,
+        "z": -1.32,
+        "roomId": "bathroom",
+        "kind": "wc"
+      },
+      {
+        "id": "basin",
+        "x": 3.3,
+        "z": -0.3,
+        "roomId": "bathroom",
+        "kind": "basin"
+      },
+      {
+        "id": "shower",
+        "x": 4.1,
+        "z": -2.75,
+        "roomId": "bathroom",
+        "kind": "shower"
+      },
+      {
+        "id": "trap-bath",
+        "x": 4.75,
+        "z": -2.5,
+        "roomId": "bathroom",
+        "kind": "floor_trap"
+      },
+      {
+        "id": "heater",
+        "x": 3.12,
+        "z": -2.95,
+        "roomId": "bathroom",
+        "kind": "water_heater"
+      },
+      {
+        "id": "washer",
+        "x": 5.5,
+        "z": 0.55,
+        "roomId": "bathroom",
+        "label": "Washer-dryer",
+        "kind": "washing_machine"
+      },
+      {
+        "id": "shaft-kitchen",
+        "x": -6.95,
+        "z": -3.1,
+        "roomId": "kitchen",
+        "label": "Shaft",
+        "kind": "shaft"
+      },
+      {
+        "id": "sink",
+        "x": -7.62,
+        "z": -2.95,
+        "roomId": "kitchen",
+        "kind": "sink"
+      }
+    ],
+    "lines": [
+      {
+        "id": "cold-bath",
+        "kind": "cold",
+        "path": [
+          [
+            5.8,
+            -3.05
+          ],
+          [
+            3.12,
+            -3.05
+          ],
+          [
+            3.12,
+            -2.95
+          ]
+        ]
+      },
+      {
+        "id": "cold-shower",
+        "kind": "cold",
+        "path": [
+          [
+            4.1,
+            -3.05
+          ],
+          [
+            4.1,
+            -2.75
+          ]
+        ]
+      },
+      {
+        "id": "cold-wc",
+        "kind": "cold",
+        "path": [
+          [
+            3,
+            -3.05
+          ],
+          [
+            3,
+            -1.32
+          ],
+          [
+            3.55,
+            -1.32
+          ]
+        ]
+      },
+      {
+        "id": "cold-basin",
+        "kind": "cold",
+        "path": [
+          [
+            3,
+            -1.32
+          ],
+          [
+            3,
+            -0.3
+          ],
+          [
+            3.3,
+            -0.3
+          ]
+        ]
+      },
+      {
+        "id": "cold-washer",
+        "kind": "cold",
+        "path": [
+          [
+            5.8,
+            -3.05
+          ],
+          [
+            5.95,
+            -3.05
+          ],
+          [
+            5.95,
+            0.55
+          ],
+          [
+            5.5,
+            0.55
+          ]
+        ]
+      },
+      {
+        "id": "hot-shower",
+        "kind": "hot",
+        "path": [
+          [
+            3.12,
+            -2.95
+          ],
+          [
+            3.12,
+            -2.75
+          ],
+          [
+            4.1,
+            -2.75
+          ]
+        ]
+      },
+      {
+        "id": "hot-basin",
+        "kind": "hot",
+        "path": [
+          [
+            3.12,
+            -2.75
+          ],
+          [
+            3.12,
+            -0.3
+          ],
+          [
+            3.3,
+            -0.3
+          ]
+        ]
+      },
+      {
+        "id": "drain-wc",
+        "kind": "drain",
+        "path": [
+          [
+            3.55,
+            -1.32
+          ],
+          [
+            5.6,
+            -1.32
+          ],
+          [
+            5.6,
+            -3.05
+          ],
+          [
+            5.8,
+            -3.05
+          ]
+        ]
+      },
+      {
+        "id": "drain-basin",
+        "kind": "drain",
+        "path": [
+          [
+            3.3,
+            -0.3
+          ],
+          [
+            3.3,
+            0.2
+          ],
+          [
+            5.6,
+            0.2
+          ],
+          [
+            5.6,
+            -1.32
+          ]
+        ]
+      },
+      {
+        "id": "drain-washer",
+        "kind": "drain",
+        "path": [
+          [
+            5.5,
+            0.55
+          ],
+          [
+            5.6,
+            0.55
+          ],
+          [
+            5.6,
+            0.2
+          ]
+        ]
+      },
+      {
+        "id": "drain-shower",
+        "kind": "drain",
+        "path": [
+          [
+            4.1,
+            -2.75
+          ],
+          [
+            4.75,
+            -2.5
+          ],
+          [
+            5.6,
+            -2.5
+          ]
+        ]
+      },
+      {
+        "id": "cold-sink",
+        "kind": "cold",
+        "path": [
+          [
+            -6.95,
+            -3.1
+          ],
+          [
+            -7.62,
+            -3.1
+          ],
+          [
+            -7.62,
+            -2.95
+          ]
+        ]
+      },
+      {
+        "id": "drain-sink",
+        "kind": "drain",
+        "path": [
+          [
+            -7.62,
+            -2.95
+          ],
+          [
+            -7.62,
+            -2.75
+          ],
+          [
+            -6.95,
+            -2.75
+          ],
+          [
+            -6.95,
+            -3.1
+          ]
+        ]
+      }
+    ]
+  }
+}

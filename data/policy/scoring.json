@@ -1,0 +1,69 @@
+{
+  "rules": [
+    {
+      "id": "visit",
+      "label": "Booked a site visit",
+      "points": 25,
+      "when": { "type": "visit_booked" }
+    },
+    {
+      "id": "pricing-time",
+      "label": "Spent over a minute on pricing",
+      "points": 15,
+      "when": { "type": "time_on_view", "view": "money", "seconds": 60 }
+    },
+    {
+      "id": "offer",
+      "label": "Applied an offer",
+      "points": 10,
+      "when": { "type": "offer_applied" }
+    },
+    {
+      "id": "budget",
+      "label": "Shared a budget",
+      "points": 10,
+      "when": { "type": "lead_field", "field": "budget" }
+    },
+    {
+      "id": "timeline",
+      "label": "Shared a timeline",
+      "points": 10,
+      "when": { "type": "lead_field", "field": "timeline" }
+    },
+    {
+      "id": "both-properties",
+      "label": "Looked at both properties",
+      "points": 10,
+      "when": { "type": "properties_viewed", "count": 2 }
+    },
+    {
+      "id": "purpose",
+      "label": "Said what they are looking for",
+      "points": 5,
+      "when": { "type": "lead_field", "field": "purpose" }
+    },
+    {
+      "id": "legal",
+      "label": "Checked the legal papers",
+      "points": 5,
+      "when": { "type": "view_seen", "view": "legal" }
+    },
+    {
+      "id": "tour",
+      "label": "Took the 3D tour",
+      "points": 5,
+      "when": { "type": "view_seen", "view": "tour" }
+    },
+    {
+      "id": "human",
+      "label": "Asked for a human advisor",
+      "points": 5,
+      "when": { "type": "handoff_requested" }
+    }
+  ],
+  "tiers": [
+    { "min": 0, "label": "Cold" },
+    { "min": 35, "label": "Warm" },
+    { "min": 65, "label": "Hot" }
+  ]
+}

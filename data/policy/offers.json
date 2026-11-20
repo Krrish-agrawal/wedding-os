@@ -1,0 +1,62 @@
+{
+  "properties": {
+    "apt-indiranagar": {
+      "offers": [
+        {
+          "id": "floor-rise-waiver",
+          "title": "Floor rise waived",
+          "description": "The builder drops the floor rise charge on this apartment.",
+          "type": "waiver",
+          "value": 0,
+          "lineItemId": "floor_rise",
+          "stackable": true
+        },
+        {
+          "id": "clubhouse-included",
+          "title": "Clubhouse membership included",
+          "description": "Membership of the building's shared amenities at no charge.",
+          "type": "waiver",
+          "value": 0,
+          "lineItemId": "club",
+          "stackable": true
+        },
+        {
+          "id": "book-within-week",
+          "title": "Booking within the week",
+          "description": "A flat amount off the price when you book within seven days of your site visit.",
+          "type": "flat",
+          "value": 200000,
+          "stackable": true
+        }
+      ],
+      "maxDiscountPct": 2,
+      "handoffAbovePct": 2
+    },
+    "office-koramangala": {
+      "offers": [
+        {
+          "id": "rent-free-first-month",
+          "title": "First month rent-free",
+          "description": "Move in and set up without paying rent for the first month.",
+          "type": "waiver",
+          "value": 0,
+          "lineItemId": "rent",
+          "months": 1,
+          "stackable": true
+        },
+        {
+          "id": "maintenance-first-month",
+          "title": "First month's maintenance waived",
+          "description": "No maintenance charge for the first month of the lease.",
+          "type": "waiver",
+          "value": 0,
+          "lineItemId": "maintenance",
+          "months": 1,
+          "stackable": true
+        }
+      ],
+      "maxDiscountPct": 3,
+      "handoffAbovePct": 3
+    }
+  }
+}

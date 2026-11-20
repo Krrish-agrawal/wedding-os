@@ -1,0 +1,15 @@
+node_modules/
+.pnpm-store/
+.pnpm-cache/
+dist/
+.env
+.env.local
+*.log
+.DS_Store
+apps/server/var/
+assets/models/raw/
+coverage/
+scripts/maps/.cache/
+
+# Leftover render test bundles from the promo video
+video/.tmp/

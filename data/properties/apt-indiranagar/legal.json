@@ -1,0 +1,73 @@
+{
+  "documents": [
+    {
+      "id": "rera",
+      "title": "RERA project registration",
+      "status": "verified",
+      "reference": "PRM/KA/RERA/SAMPLE/0001",
+      "issuedBy": "Karnataka Real Estate Regulatory Authority",
+      "date": "2024-03-18",
+      "summary": "Registered with Karnataka RERA, with a declared completion date of 30 June 2027.",
+      "explanation": "Any new project in Karnataka with more than eight apartments, or on more than 500 square metres of land, must be registered with the Karnataka Real Estate Regulatory Authority before it is advertised or sold. To register, the builder files the land title, the approved plans and a completion date, and must keep 70% of the money buyers pay in a separate account that can only be spent on this project. If the builder misses the declared date or changes the plan without your consent, you can complain to RERA and claim interest or a refund. You can look up any registered project on the Karnataka RERA website. This is a sample number; a real one appears on every advertisement and agreement."
+    },
+    {
+      "id": "title",
+      "title": "Land title",
+      "status": "verified",
+      "reference": "SAMPLE/TITLE/2023/0042",
+      "issuedBy": "Independent advocate's title search",
+      "date": "2023-09-04",
+      "summary": "Clear title to the land, traced back 30 years, with no disputes found.",
+      "explanation": "The title deed proves who owns the land the building stands on. A lawyer traces every sale of the land over at least 30 years to check that each owner had the right to sell it, that no court case is pending, and that every legal heir agreed. Here the builder developed the land under a joint development agreement with the landowner, so both of them sign your sale deed. With your apartment you also get an undivided share of this land, which is written into the deed."
+    },
+    {
+      "id": "encumbrance",
+      "title": "Encumbrance certificate",
+      "status": "verified",
+      "reference": "EC/SAMPLE/2026/1187",
+      "issuedBy": "Sub-Registrar's office",
+      "date": "2026-10-30",
+      "summary": "No loans or claims on the land other than the builder's project loan, released flat by flat.",
+      "explanation": "An encumbrance certificate lists every registered transaction on a property: sales, mortgages and leases. A clean one means nobody else has a legal claim on it. This project has a construction loan from a bank, which is normal for a new building. Before your sale deed is registered, that lender gives a no-objection letter releasing your apartment from the loan, so you take it free of any debt. Ask for that letter with your registration papers."
+    },
+    {
+      "id": "plan",
+      "title": "Building plan approval",
+      "status": "verified",
+      "reference": "BBMP/LP/SAMPLE/0099/2023-24",
+      "issuedBy": "BBMP, now the Greater Bengaluru Authority",
+      "date": "2023-11-22",
+      "summary": "The approved plan covers all eight floors and the basement; what is built so far matches it.",
+      "explanation": "Before a building goes up, the city approves its plan: the number of floors, the gaps left to the road and neighbours, parking, and the layout of every flat. A building that strays from its approved plan can be fined or partly demolished, and banks may refuse to lend on it. The approved plan here covers eight floors and a basement, and an engineer's site check found the floors built so far match it. Bengaluru's civic body, the BBMP, has since become the Greater Bengaluru Authority with five city corporations; plans approved before the change stay valid."
+    },
+    {
+      "id": "occupancy",
+      "title": "Occupancy certificate",
+      "status": "pending",
+      "reference": "To be issued on completion",
+      "issuedBy": "Greater Bengaluru Authority",
+      "summary": "Pending. The builder applies when construction ends, ahead of handover in March 2027.",
+      "explanation": "The occupancy certificate confirms the finished building matches its approved plan and is safe to live in, with fire, lift, water and electricity clearances in place. It is only issued once construction is complete, so it is normal for a building at this stage not to have it yet. Do not take possession or register your sale deed until it is issued: without it, permanent water and electricity connections can be refused and the home is harder to resell or borrow against. Ask to see the certificate before you fix a registration date."
+    },
+    {
+      "id": "khata",
+      "title": "Khata",
+      "status": "verified",
+      "reference": "SAMPLE-EKHATA-0007",
+      "issuedBy": "Greater Bengaluru Authority",
+      "date": "2025-06-12",
+      "summary": "The land has a verified e-Khata. Your flat gets its own khata in your name after registration.",
+      "explanation": "A khata is the city's record that a property is assessed for property tax, and who pays it. In Bengaluru you need a verified e-Khata to register a sale, take a home loan or apply for utility connections. The land under this building has one. After the occupancy certificate is issued and your sale deed is registered, the khata is split so your flat has its own, in your name. From then on you pay property tax against it each year."
+    },
+    {
+      "id": "bank-approvals",
+      "title": "Home loan approvals",
+      "status": "verified",
+      "reference": "Approved by three national banks",
+      "issuedBy": "Lenders' project approval",
+      "date": "2024-07-01",
+      "summary": "Pre-approved by three national banks, so your loan only needs your own checks.",
+      "explanation": "Banks run their own legal and technical checks on a project before they lend to its buyers. When a project is already approved, those checks are done, and your loan only needs your income and credit checks, which is usually quicker. It is also a useful second opinion on the paperwork. You can still borrow from any lender you like; one that has not approved the project will do its own checks first."
+    }
+  ]
+}

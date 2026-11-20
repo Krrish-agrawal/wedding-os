@@ -1,0 +1,62 @@
+/*
+ * Brand tokens for the promo. The names and values mirror the design tokens in
+ * apps/web/src/styles.css, so the mascot artwork (which reads var(--color-*)) renders exactly as in
+ * the app. If the app's tokens change, copy the new values here.
+ */
+@import '@fontsource-variable/bricolage-grotesque/standard.css';
+@import '@fontsource-variable/plus-jakarta-sans/index.css';
+@import '@fontsource/noto-sans-devanagari/600.css';
+@import '@fontsource/noto-sans-devanagari/800.css';
+@import '@fontsource/noto-sans-kannada/600.css';
+@import '@fontsource/noto-sans-kannada/800.css';
+
+:root {
+  --color-canvas: #ffffff;
+  --color-paper: #f6f8fb;
+  --color-ink: #0e1726;
+  --color-ink-soft: #5b6677;
+  --color-ink-mute: #8a94a6;
+  --color-line: #e6eaf0;
+
+  --color-blue: #099dfd;
+  --color-blue-deep: #0b6fd6;
+  --color-blue-tint: #e8f5ff;
+
+  --color-sun: #ffc93c;
+  --color-sun-deep: #8a6400;
+  --color-sun-tint: #fff6db;
+  --color-coral: #ff6b5e;
+  --color-coral-deep: #c73a2e;
+  --color-coral-tint: #ffecea;
+  --color-mint: #1fc98e;
+  --color-mint-deep: #08804f;
+  --color-mint-tint: #e3f8ef;
+  --color-grape: #7b61ff;
+  --color-grape-deep: #5a3fd9;
+  --color-grape-tint: #efebff;
+  --color-tangerine: #ff8a1f;
+  --color-tangerine-deep: #a85200;
+  --color-tangerine-tint: #fff0e2;
+
+  /* Indic fallbacks follow the brand faces so Hindi and Kannada titles use matching weights. */
+  --font-display: 'Bricolage Grotesque Variable', 'Noto Sans Devanagari', 'Noto Sans Kannada', sans-serif;
+  --font-sans: 'Plus Jakarta Sans Variable', 'Noto Sans Devanagari', 'Noto Sans Kannada', sans-serif;
+
+  --radius-card: 20px;
+  --radius-tile: 24px;
+  --radius-control: 14px;
+  --radius-chip: 999px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--color-canvas);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
