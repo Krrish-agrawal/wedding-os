@@ -113,7 +113,7 @@ export const TOOL_DESCRIPTIONS: Record<ToolName, string> = {
   getVisitSlots: 'List available site-visit slots for the open property.',
   bookSiteVisit: 'Book a site visit. Set confirmed true only after a clear yes to a specific slot; the buyer asking for it outright counts as yes.',
   updateLead: 'Quietly record what you learn: purpose, budget, timeline, needs, concerns, objections. Call as facts come up.',
-  sendReport: 'Send the buyer a recap by email and/or WhatsApp. Set confirmed true only after a clear yes; the buyer asking for it outright counts as yes.',
+  sendReport: 'Send the buyer a recap by email and/or WhatsApp. Call it as soon as they ask, even if they say "at the end of the call": an updated recap then goes out by itself when the call ends. Set confirmed true only after a clear yes; the buyer asking for it outright counts as yes.',
   requestHuman: 'Bring a human senior advisor into this call. Use when asked, when the buyer is frustrated, or a request is outside policy.',
 };
 

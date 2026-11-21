@@ -31,4 +31,7 @@ export const deskRoutes: FastifyPluginAsync = async (app) => {
   });
 
   app.get('/api/outbox', async () => ({ items: desk().leads.listOutbox() }));
+
+  /** Everything sent (or composed) for one lead, newest first: the phone preview on the Desk reads this. */
+  app.get<{ Params: { id: string } }>('/api/leads/:id/outbox', async (req) => ({ items: desk().leads.outboxForSession(req.params.id) }));
 };

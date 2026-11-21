@@ -75,7 +75,8 @@ const EnvSchema = z.object({
   RESEND_API_KEY: optional,
   SMTP_URL: optional,
 
-  WHATSAPP_PROVIDER: z.enum(['none', 'twilio', 'meta']).default('none'),
+  /** `preview` writes every WhatsApp message and shows it on the Lead Desk without sending it (demo without a sender). */
+  WHATSAPP_PROVIDER: z.enum(['none', 'twilio', 'meta', 'preview']).default('none'),
   TWILIO_ACCOUNT_SID: optional,
   TWILIO_AUTH_TOKEN: optional,
   TWILIO_WHATSAPP_FROM: optional,

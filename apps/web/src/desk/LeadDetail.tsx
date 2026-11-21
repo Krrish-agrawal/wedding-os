@@ -30,8 +30,12 @@ import { useAdvisorName as useAiAdvisorName } from '@/call/advisor';
 import { deskApi, errorText } from './api';
 import { CHANNEL_ICON, CHANNEL_NAME, DELIVERY_STATUS, SOURCE_LABEL, formatAgo } from './display';
 import { ScoreBadge, StageTag } from './LeadsTable';
+import { useResource } from './hooks';
+import { WhatsAppPhone } from './WhatsAppPhone';
 
 const TABS = ['overview', 'transcript', 'timeline', 'recap'] as const;
+/** The phone preview refreshes while it is open, so messages from a live call appear as they are composed. */
+const LEAD_OUTBOX_POLL_MS = 5000;
 type Tab = (typeof TABS)[number];
 const TAB_LABELS: Record<Tab, string> = { overview: 'Overview', transcript: 'Transcript', timeline: 'Timeline', recap: 'Recap & delivery' };
 
@@ -416,15 +420,21 @@ function Recap({ lead, onSent, now }: { lead: Lead; onSent: () => void; now: num
             <iframe title="Recap email preview" sandbox="" srcDoc={lead.reportHtml} className="h-[520px] w-full rounded-[14px] border-2 border-line bg-paper" />
           </>
         ) : (
-          <WhatsAppBubble text={lead.reportWhatsApp} />
+          <LeadWhatsApp lead={lead} />
         )}
       </Section>
     </>
   );
 }
 
+/** The lead's WhatsApp conversation in a phone mock-up (every message composed for it, or the recap draft). */
+function LeadWhatsApp({ lead }: { lead: Lead }) {
+  const outbox = useResource(lead.id, () => deskApi.leadOutbox(lead.id), LEAD_OUTBOX_POLL_MS);
+  return <WhatsAppPhone items={outbox.data ?? []} draft={lead.reportWhatsApp} buyerName={lead.buyer.name} />;
+}
+
 /** WhatsApp text with its *bold* and _italic_ markers shown as they would render. */
-export function WhatsAppBubble({ text }: { text: string }) {
+export function WhatsAppText({ text }: { text: string }) {
   const render = (line: string) =>
     line.split(/(\*[^*]+\*|_[^_]+_)/g).map((part, i) =>
       part.startsWith('*') && part.endsWith('*') ? (
@@ -438,14 +448,22 @@ export function WhatsAppBubble({ text }: { text: string }) {
       ),
     );
   return (
+    <>
+      {text.split('\n').map((line, i) => (
+        <span key={i}>
+          {render(line)}
+          {'\n'}
+        </span>
+      ))}
+    </>
+  );
+}
+
+export function WhatsAppBubble({ text }: { text: string }) {
+  return (
     <div className="rounded-[18px] bg-paper p-4">
       <div className="max-w-[440px] whitespace-pre-wrap rounded-[16px] rounded-tl-[4px] border-2 border-ink bg-mint-tint px-4 py-3 text-sm leading-relaxed">
-        {text.split('\n').map((line, i) => (
-          <span key={i}>
-            {render(line)}
-            {'\n'}
-          </span>
-        ))}
+        <WhatsAppText text={text} />
       </div>
     </div>
   );

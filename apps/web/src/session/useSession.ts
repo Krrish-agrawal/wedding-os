@@ -1,6 +1,7 @@
 import { useEffect, useRef } from 'react';
 import { create } from 'zustand';
 import type { ClientMessage, ClientRole, ServerMessage, SessionAction, SessionState } from '@ave/shared';
+import { socketUrl } from './socketUrl';
 
 type Connection = 'connecting' | 'open' | 'reconnecting' | 'closed';
 
@@ -23,10 +24,6 @@ export const useSessionStore = create<SessionStore>(() => ({
 const RECONNECT_DELAYS_MS = [250, 500, 1000, 2000, 4000];
 const PING_INTERVAL_MS = 20_000;
 
-function wsUrl(path: string): string {
-  const proto = location.protocol === 'https:' ? 'wss' : 'ws';
-  return `${proto}://${location.host}${path}`;
-}
 
 /**
  * Connects this tab to a session over WebSocket and keeps the store in sync.
@@ -54,7 +51,7 @@ export function useSessionConnection(sessionId: string | undefined, role: Client
     });
 
     const connect = () => {
-      const socket = new WebSocket(wsUrl('/ws'));
+      const socket = new WebSocket(socketUrl('/ws'));
       socketRef.current = socket;
       useSessionStore.setState({ connection: attempt === 0 ? 'connecting' : 'reconnecting' });
 

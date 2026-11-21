@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import type { DeskMessage, SessionSummary } from '@ave/shared';
 import { errorText } from './api';
+import { socketUrl } from '@/session/socketUrl';
 
 /** Re-renders every `intervalMs` with the current time, for ticking clocks and "2 min ago". */
 export function useNow(intervalMs: number): number {
@@ -86,8 +87,7 @@ export function useDeskFeed(onHandoff: (msg: Extract<DeskMessage, { type: 'hando
     let retry: ReturnType<typeof setTimeout> | undefined;
 
     const connect = () => {
-      const proto = location.protocol === 'https:' ? 'wss' : 'ws';
-      socket = new WebSocket(`${proto}://${location.host}/ws/desk`);
+      socket = new WebSocket(socketUrl('/ws/desk'));
       socket.onopen = () => {
         attempt = 0;
         setFeed((f) => ({ ...f, connection: 'open' }));

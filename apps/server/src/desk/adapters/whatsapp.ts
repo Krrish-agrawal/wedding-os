@@ -121,8 +121,23 @@ export class UnconfiguredWhatsAppAdapter implements WhatsAppAdapter {
   }
 }
 
+/**
+ * Preview mode: every message is composed and kept in the Outbox (the Lead Desk shows it in a phone
+ * mock-up), and none is sent. Recorded as not configured, so nothing ever claims it was delivered.
+ */
+export const WHATSAPP_PREVIEW_DETAIL = 'Preview only: WhatsApp sending is off for this demo, so the message is shown on the Lead Desk instead.';
+
+export class PreviewWhatsAppAdapter implements WhatsAppAdapter {
+  readonly provider = 'none';
+  async send(): Promise<SendOutcome> {
+    return { status: 'not_configured', detail: WHATSAPP_PREVIEW_DETAIL };
+  }
+}
+
 export function createWhatsAppAdapter(config: Config, fetchImpl: FetchLike = fetch): WhatsAppAdapter {
   switch (config.WHATSAPP_PROVIDER) {
+    case 'preview':
+      return new PreviewWhatsAppAdapter();
     case 'none':
       return new UnconfiguredWhatsAppAdapter('WhatsApp is not configured (WHATSAPP_PROVIDER is none)');
     case 'twilio':

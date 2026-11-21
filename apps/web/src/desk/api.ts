@@ -48,6 +48,7 @@ export const deskApi = {
   leads: () => request<{ leads: LeadSummary[] }>('/api/leads').then((r) => r.leads),
   lead: (id: string) => request<{ lead: LeadDetail }>(`/api/leads/${encodeURIComponent(id)}`).then((r) => r.lead),
   outbox: () => request<{ items: OutboxItem[] }>('/api/outbox').then((r) => r.items),
+  leadOutbox: (id: string) => request<{ items: OutboxItem[] }>(`/api/leads/${encodeURIComponent(id)}/outbox`).then((r) => r.items),
   sendReport: (id: string, channels: ReportChannel[]) =>
     request<{ deliveries: Delivery[] }>(`/api/leads/${encodeURIComponent(id)}/report`, postJson({ channels })).then((r) => r.deliveries),
   join: (sessionId: string, humanName: string) =>

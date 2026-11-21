@@ -1,0 +1,72 @@
+# The API server on Render (the web app is on Vercel; see vercel.json and docs/deploy.md).
+# Secrets are not in this file: Render asks for each `sync: false` value when the Blueprint is created.
+services:
+  - type: web
+    name: agora-virtual-estates-api
+    runtime: node
+    plan: free
+    region: singapore
+    buildCommand: corepack enable && pnpm install --frozen-lockfile --prod=false
+    startCommand: pnpm --filter @ave/server start
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_VERSION
+        value: "22"
+      - key: NODE_ENV
+        value: production
+      - key: SERVER_HOST
+        value: 0.0.0.0
+      - key: SERVER_PORT
+        value: "10000"
+      # This service's own public address: Agora's voice agent calls the advisor's tools here.
+      - key: PUBLIC_BASE_URL
+        value: https://agora-virtual-estates-api.onrender.com
+      # The Vercel address of the web app, used for links in emails, Slack and Jira.
+      - key: WEB_ORIGIN
+        sync: false
+      - key: AGORA_APP_ID
+        sync: false
+      - key: AGORA_APP_CERTIFICATE
+        sync: false
+      - key: AGORA_CUSTOMER_ID
+        sync: false
+      - key: AGORA_CUSTOMER_SECRET
+        sync: false
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: MURF_API_KEY
+        sync: false
+      - key: MURF_VOICE_ID
+        sync: false
+      - key: ADVISOR_NAME
+        sync: false
+      - key: EMAIL_PROVIDER
+        sync: false
+      - key: EMAIL_FROM
+        sync: false
+      - key: RESEND_API_KEY
+        sync: false
+      - key: WHATSAPP_PROVIDER
+        sync: false
+      - key: TWILIO_ACCOUNT_SID
+        sync: false
+      - key: TWILIO_AUTH_TOKEN
+        sync: false
+      - key: TWILIO_WHATSAPP_FROM
+        sync: false
+      - key: HUBSPOT_TOKEN
+        sync: false
+      - key: SLACK_BOT_TOKEN
+        sync: false
+      - key: SLACK_CHANNEL_ID
+        sync: false
+      - key: SLACK_CHANNEL_NAME
+        sync: false
+      - key: JIRA_BASE_URL
+        sync: false
+      - key: JIRA_EMAIL
+        sync: false
+      - key: JIRA_API_TOKEN
+        sync: false
+      - key: JIRA_PROJECT_KEY
+        sync: false
