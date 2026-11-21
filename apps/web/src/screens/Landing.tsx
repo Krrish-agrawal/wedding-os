@@ -17,6 +17,9 @@ const NAV_LINKS = [
 
 const EASE = [0.2, 0.9, 0.25, 1] as const;
 
+/** Agora's official wordmark, from agora.io (see assets/brand/README.md). */
+const AGORA_LOGO_SRC = '/brand/agora-logo.svg';
+
 /**
  * Landing (/): a big brand hero with the mascot sitting on a Bengaluru rooftop, then the problem,
  * the neighbourhoods, everything the call can show, how it works, the sales-team side, and the form
@@ -79,8 +82,13 @@ export default function Landing() {
               transition={{ duration: 0.45, delay: 0.05, ease: EASE }}
               className="mt-5 font-display text-[clamp(76px,9.4vw,150px)] font-extrabold leading-[0.88] tracking-[-0.045em] short:text-[clamp(64px,7.6vw,120px)]"
             >
-              <span className="text-blue">Agora</span>
-              <br />
+              {/* The logo's "g" hangs well below its baseline, so it gets its own block line. */}
+              <img
+                src={AGORA_LOGO_SRC}
+                alt="Agora"
+                draggable={false}
+                className="-ml-[0.02em] mb-[0.06em] block h-[1.15em] w-auto select-none"
+              />
               Virtual Estates
             </motion.h1>
             <motion.p

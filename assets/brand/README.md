@@ -12,8 +12,9 @@ The owner supplies the final artwork; until then the app uses a stand-in drawn i
 | `apps/web/src/ui/mascot/states.ts` | The list of states every artwork must cover. |
 | `apps/web/src/ui/mascot/BrandMark.tsx` | Mascot glyph plus the "Agora Virtual Estates" wordmark. |
 | `apps/web/public/brand/favicon.svg` | Browser tab icon (the stand-in glyph, idle). |
+| `apps/web/public/brand/agora-logo.svg` | Agora's official wordmark, unmodified, from agora.io (`/_assets/logo/agora-logo-rgb-blue.svg`). Used in the landing hero. |
 
-No third-party logo is downloaded or redrawn anywhere in the product.
+The Agora wordmark is the only third-party logo in the product; it is used as published, never redrawn.
 
 ## The stand-in
 
