@@ -87,7 +87,7 @@ export default function Landing() {
                 src={AGORA_LOGO_SRC}
                 alt="Agora"
                 draggable={false}
-                className="-ml-[0.02em] mb-[0.06em] block h-[1.15em] w-auto select-none"
+                className="-ml-[0.02em] mb-[0.08em] block h-[0.95em] w-auto select-none"
               />
               Virtual Estates
             </motion.h1>
