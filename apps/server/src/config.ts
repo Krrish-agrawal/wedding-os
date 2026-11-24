@@ -6,7 +6,8 @@ const here = path.dirname(fileURLToPath(import.meta.url));
 /** Repository root. */
 export const ROOT_DIR = path.resolve(here, '../../..');
 export const DATA_DIR = path.join(ROOT_DIR, 'data');
-export const VAR_DIR = path.join(ROOT_DIR, 'apps/server/var');
+/** Runtime data. WEDDING_VAR_DIR lets end-to-end tests use a throwaway directory. */
+export const VAR_DIR = process.env.WEDDING_VAR_DIR ? path.resolve(process.env.WEDDING_VAR_DIR) : path.join(ROOT_DIR, 'apps/server/var');
 
 const optional = z.string().trim().min(1).optional();
 
@@ -15,6 +16,8 @@ const EnvSchema = z.object({
   SERVER_HOST: z.string().default('127.0.0.1'),
   /** Origin of the web app, for CORS and links in reports. */
   WEB_ORIGIN: z.string().url().default('http://localhost:5173'),
+  /** Extra browser origins allowed by CORS, comma separated (e.g. a preview deployment). WEB_ORIGIN is always allowed. */
+  CORS_ORIGINS: z.string().default(''),
   /** Publicly reachable URL of this server; Agora calls tools here. */
   PUBLIC_BASE_URL: z.string().url().optional(),
   TOOL_TRANSPORT: z.enum(['mcp', 'http']).default('mcp'),
@@ -38,6 +41,33 @@ const EnvSchema = z.object({
   MURF_BASE_URL: z.string().url().default('wss://global.api.murf.ai/v1/speech/stream-input'),
   MURF_RATE: z.coerce.number().int().min(-50).max(50).default(0),
   MURF_PITCH: z.coerce.number().int().min(-50).max(50).default(0),
+
+  /** Flagsmith. A SERVER-SIDE environment key (starts "ser.") enables local evaluation; any other key uses remote evaluation. */
+  FLAGSMITH_ENVIRONMENT_KEY: optional,
+  FLAGSMITH_API_URL: z.string().url().optional(),
+  /** Sarvam AI speech-to-text for the wedding planner's voice input. Server-side only. */
+  SARVAM_API_KEY: optional,
+  SARVAM_STT_MODEL: z.string().default('saaras:v4'),
+
+  /** Reference-photo storage. `local` = a private directory under the server's var dir; `s3` = any S3-compatible bucket (R2, S3, Supabase, MinIO). */
+  STORAGE_DRIVER: z.enum(['local', 's3']).default('local'),
+  STORAGE_ENDPOINT: z.string().url().optional(),
+  STORAGE_BUCKET: optional,
+  STORAGE_REGION: z.string().default('auto'),
+  STORAGE_ACCESS_KEY_ID: optional,
+  STORAGE_SECRET_ACCESS_KEY: optional,
+  STORAGE_FORCE_PATH_STYLE: z.enum(['0', '1']).default('0'),
+  IMAGE_MAX_FILES: z.coerce.number().int().min(1).max(12).default(6),
+  IMAGE_MAX_BYTES: z.coerce.number().int().min(100_000).max(20_000_000).default(6 * 1024 * 1024),
+  IMAGE_RETENTION_HOURS: z.coerce.number().min(0.1).max(24 * 365).default(24),
+
+  /**
+   * Vision model for the wedding design brief. NO default on purpose: gpt-4.1-mini is deprecated by OpenAI (retirement
+   * 2027-01-14) and whether any replacement accepts images and strict JSON schemas must be proven by a real call
+   * (`pnpm --filter @ave/server wedding:design-smoke`), not assumed. Unset = the labelled sample workflow.
+   */
+  WEDDING_VISION_MODEL: optional,
+  WEDDING_VISION_TIMEOUT_MS: z.coerce.number().int().min(5000).max(180000).default(45000),
 
   ASR_VENDOR: z.string().default('ares'),
   ASR_LANGUAGE: z.string().default('en-IN'),
@@ -117,7 +147,12 @@ export type Config = z.infer<typeof EnvSchema>;
 export function loadConfig(env: NodeJS.ProcessEnv = process.env): Config {
   // `KEY=` lines in .env arrive as empty strings; treat them as unset so defaults and optionals apply.
   const present = Object.fromEntries(Object.entries(env).filter(([, v]) => v !== undefined && v.trim() !== ''));
-  const parsed = EnvSchema.safeParse(present);
+  // Render, Railway and Fly tell the service which port to bind through PORT; SERVER_PORT wins when both are set.
+  if (present.SERVER_PORT === undefined && present.PORT !== undefined) present.SERVER_PORT = present.PORT;
+  const parsed = EnvSchema.superRefine((e, ctx) => {
+    if (e.STORAGE_DRIVER !== 's3') return;
+    for (const k of ['STORAGE_BUCKET', 'STORAGE_ACCESS_KEY_ID', 'STORAGE_SECRET_ACCESS_KEY', 'STORAGE_ENDPOINT'] as const) if (!e[k]) ctx.addIssue({ code: 'custom', path: [k], message: 'required when STORAGE_DRIVER=s3' });
+  }).safeParse(present);
   if (!parsed.success) {
     const lines = parsed.error.issues.map((i) => `${i.path.join('.')}: ${i.message}`);
     throw new Error(`Invalid environment:\n${lines.join('\n')}`);

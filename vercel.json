@@ -5,7 +5,7 @@
   "buildCommand": "pnpm --filter @ave/web build",
   "outputDirectory": "apps/web/dist",
   "rewrites": [
-    { "source": "/api/:path*", "destination": "https://agora-virtual-estates-api.onrender.com/api/:path*" },
+    { "source": "/api/:path*", "destination": "https://wedding-os-api.onrender.com/api/:path*" },
     { "source": "/(.*)", "destination": "/index.html" }
   ]
 }

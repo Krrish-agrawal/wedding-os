@@ -13,3 +13,7 @@ scripts/maps/.cache/
 
 # Leftover render test bundles from the promo video
 video/.tmp/
+
+# Try-on runtime files fetched by `pnpm --filter @ave/web tryon:setup` (not committed)
+apps/web/public/litert-wasm/
+apps/web/public/models/*.tflite

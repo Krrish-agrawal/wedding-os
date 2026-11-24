@@ -24,5 +24,7 @@ export default defineConfig({
       '/ws': { target: API_TARGET.replace(/^http/, 'ws'), ws: true },
     },
   },
+  // The try-on inference worker is an ES module worker with its own imports.
+  worker: { format: 'es' },
   build: { target: 'es2022', sourcemap: true },
 });

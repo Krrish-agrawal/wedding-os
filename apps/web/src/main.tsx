@@ -1,5 +1,6 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
+import './apiBase';
 import App from './App';
 import { loadServerSettings } from './session/bootstrap';
 import './styles.css';

@@ -22,9 +22,10 @@
   --color-line: #e6eaf0;
 
   /* Brand */
-  --color-blue: #099dfd;
-  --color-blue-deep: #0b6fd6;
-  --color-blue-tint: #e8f5ff;
+  /* Wedding OS re-themes the brand ramp (names are a contract, values are not): rose-maroon in place of blue. */
+  --color-blue: #f4a3bd;
+  --color-blue-deep: #9b1c4b;
+  --color-blue-tint: #fdeef3;
 
   /* Accents. `-deep` is the text-safe tone (4.5:1 or better on white); `-tint` is the soft fill. */
   --color-sun: #ffc93c;

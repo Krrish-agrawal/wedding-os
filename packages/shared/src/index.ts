@@ -19,3 +19,4 @@ export * from './consult.js';
 export * from './pipeline.js';
 export * from './outbound.js';
 export * from './integrations.js';
+export * from './wedding/index.js';

@@ -1,0 +1,74 @@
+{
+  "$comment": "Exactly the Poly Haven assets Wedding OS uses. All Poly Haven assets are CC0-1.0 (https://polyhaven.com/license). Edit this list, then run: pnpm --filter @ave/web assets:fetch",
+  "resolution": "1k",
+  "models": [
+    {
+      "id": "Chandelier_01",
+      "catalogIds": [
+        "chandelier-crystal"
+      ]
+    },
+    {
+      "id": "brass_diya_lantern",
+      "catalogIds": [
+        "lantern-floor"
+      ]
+    },
+    {
+      "id": "sofa_02",
+      "catalogIds": [
+        "sofa-loveseat"
+      ]
+    },
+    {
+      "id": "potted_plant_02",
+      "catalogIds": [
+        "plant-potted"
+      ]
+    },
+    {
+      "id": "brass_vase_01",
+      "catalogIds": [
+        "urn-brass-flowers"
+      ]
+    },
+    {
+      "id": "carved_wooden_elephant",
+      "catalogIds": [
+        "elephant-carved"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "id": "marble_tiles",
+      "use": "ballroom floor"
+    },
+    {
+      "id": "old_wood_floor",
+      "use": "courtyard floor"
+    },
+    {
+      "id": "beige_wall_001",
+      "use": "indoor walls"
+    },
+    {
+      "id": "leafy_grass",
+      "use": "lawn ground"
+    }
+  ],
+  "hdris": [
+    {
+      "id": "marry_hall",
+      "use": "ballroom lighting"
+    },
+    {
+      "id": "old_hall",
+      "use": "courtyard lighting"
+    },
+    {
+      "id": "evening_meadow",
+      "use": "lawn lighting and sky"
+    }
+  ]
+}

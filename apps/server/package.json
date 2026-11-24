@@ -9,13 +9,19 @@
     "typecheck": "tsc -p tsconfig.json",
     "test": "vitest run --passWithNoTests",
     "validate:data": "tsx src/scripts/validate-data.ts",
-    "reset": "tsx src/scripts/reset.ts"
+    "reset": "tsx src/scripts/reset.ts",
+    "wedding:smoke": "tsx --env-file-if-exists=../../.env src/scripts/live-smoke.ts",
+    "wedding:design-smoke": "tsx --env-file-if-exists=../../.env src/scripts/design-smoke.ts"
   },
   "dependencies": {
     "@ave/shared": "workspace:*",
+    "@aws-sdk/client-s3": "3.1175.0",
+    "@aws-sdk/s3-request-presigner": "3.1175.0",
     "@fastify/cors": "11.4.3",
+    "@fastify/multipart": "10.1.9",
     "@fastify/static": "10.1.11",
     "@fastify/websocket": "11.3.7",
+    "@flagsmith/nodejs": "9.4.0",
     "@modelcontextprotocol/sdk": "1.32.2",
     "agora-agents": "2.15.0",
     "agora-token": "2.0.7",
